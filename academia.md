@@ -5,35 +5,39 @@ permalink: /academia/
 ---
 
 ## Publications, talks
- - T. Benes, J. Pešek, and Tomáš Čejka, *How to measure high-speed network: a case study*, Proceedings of the 11th Prague Embedded Systems Workshop, 2023, [LINK](https://pesw.fit.cvut.cz/2023/PESW_2023.pdf), **abstract for submitted paper and talk, not peer reviewed**
 
- - J. Pesek, R. Plny, J. Koumar, K. Jeřábek, and T. Cejka, *Augmenting Monitoring Infrastructure For Dynamic Software-Defined Networks*, 2023 8th International Conference on Smart and Sustainable Technologies, 2023, [LINK]()
+- Josef Koumar, Karel Hynek, and Tomáš Čejka. "Network Traffic Classification based on Single Flow Time Series Analysis." 2023 19th International Conference on Network and Service Management (CNSM). IEEE, 2023. [LINK]()
 
- - J. Pešek, D. Soukup, and Tomáš Čejka, *Active Learning Framework For Long-term Network Traffic Classification*, 2023 IEEE 13th Annual Computing and Communication Workshop and Conference, 2023, [LINK](https://ieeexplore.ieee.org/abstract/document/10099065/), **best presenter award**
+- Josef Koumar, Richard Plný, and Tomáš Čejka. "Enhancing DeCrypto: Finding Cryptocurrency Miners based on Periodic Behavior" 2023 19th International Conference on Network and Service Management (CNSM). IEEE, 2023. [LINK]()
 
- - J. Pešek, D. Soukup, and Tomáš Čejka, *Active Learning Framework to Automate Network Traffic Classification*, arXiv preprint arXiv:2211.08399, 2022, [LINK](https://arxiv.org/abs/2211.08399), **not peer reviewed**
+- Josef Koumar, and Tomas Čejka. "Unevenly Spaced Time Series from Network Traffic." 2023 7th Network Traffic Measurement and Analysis Conference (TMA). IEEE, 2023. [LINK](https://ieeexplore.ieee.org/abstract/document/10198988/?casa_token=1mDX5lLg-wUAAAAA:jXRcvBAj-v8vIz3QBro5SfF5GIeXQor8DQouhHg7mvXOCdqsQY2SNt6yJUsCg-fhhB3c9wGi)
 
- - J. Pešek, D. Soukup, and Tomáš Čejka, *Vision of Active Learning Framework Approach to Network Traffic Analysis Research*, Proceedings of the 10th Prague Embedded Systems Workshop, 2022, [LINK](https://pesw.fit.cvut.cz/2022/PESW_2022.pdf)
+- Jaroslav Pesek, Richard Plny, Josef Koumar, Kamil Jeřábek, and Tomáš Cejka, *Augmenting Monitoring Infrastructure For Dynamic Software-Defined Networks*, 2023 8th International Conference on Smart and Sustainable Technologies, 2023, [LINK](https://ieeexplore.ieee.org/abstract/document/10193216)
+
+- Josef Koumar, and Tomáš Čejka. "Network traffic classification based on periodic behavior detection." 2022 18th International Conference on Network and Service Management (CNSM). IEEE, 2022. [LINK](https://ieeexplore.ieee.org/abstract/document/9964556?casa_token=bS2bXYP2LnUAAAAA:qBI9-SzT-RuzX0po_VoqzebCjMD2ydDLMoG581Mws6WWk0yqWvC5Sjr8vpji4rU7YSrDG2Em)
 
 ## In review process
 
- - J. Koumar, K. Hynek, J. Pesek, and T. Cejka, NetTiSA: Extended IP Flow with Time-series Features for Universal Bandwidth-constrained High-speed Network Traffic Classification, Computer Networks
- 
- - T. Benes, J. Pesek, T. Cejka, The case study on high-speed ISP network measurement with scalar aggregation, NOMS 2024
+- J. Koumar, K. Hynek, J. Pesek, and T. Cejka, NetTiSA: Extended IP Flow with Time-series Features for Universal Bandwidth-constrained High-speed Network Traffic Classification, Computer Networks
+
+## Preprints
+
+- J. Koumar, K. Hynek, J. Pesek, and T. Cejka, "NetTiSA: Extended IP Flow with Time-series Features for Universal Bandwidth-constrained High-speed Network Traffic Classificatio". [LINK](https://www.researchgate.net/publication/374556767_NetTiSA_Extended_IP_Flow_with_Time-series_Features_for_Universal_Bandwidth-constrained_High-speed_Network_Traffic_Classification)
+
+- Josef Koumar, Karel Hynek, and Tomáš Čejka. "Network Traffic Classification based on Single Flow Time Series Analysis." [LINK](https://www.researchgate.net/publication/372625466_Network_Traffic_Classification_based_on_Single_Flow_Time_Series_Analysis)
+
+- Josef Koumar, and Tomas Čejka. "Unevenly Spaced Time Series from Network Traffic." [LINK](https://www.researchgate.net/publication/371530461_Unevenly_Spaced_Time_Series_from_Network_Traffic)
 
 ## What I am working on right now
 
- - Per day dataset balancing for optimal predictive model performance
+- Anomaly detection dataset from CESNET2 network
 
- - Model maintenence path in network traffic classification (using active learning)
+- Anomaly detection in ISP networks using time series analysis
 
- - Optimizing of flow cache in flow exporter
-
-
-## Service
- - Student Poster Session Co-Chair at [PESW 2023](https://pesw.fit.cvut.cz/2023/index.php?page=Committees)
+- Clustering of time series
 
 ## Memberships
- - Researcher at [Network Traffic Monitoring Lab (Netmon)](https://netmon.fit.cvut.cz/en)
- - Academic staff member at [Digital Design Department](https://ddd.fit.cvut.cz) at [FIT CTU](https://fit.cvut.cz)
- - IEEE Student Branch, Czechoslovakia Section
+
+- Researcher at [Network Traffic Monitoring Lab (Netmon)](https://netmon.fit.cvut.cz/en)
+- Academic staff member at [Digital Design Department](https://ddd.fit.cvut.cz) at [FIT CTU](https://fit.cvut.cz)
+- President of IEEE Student Branch for CTU, Czechoslovakia Section
