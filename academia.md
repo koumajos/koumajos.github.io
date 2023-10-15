@@ -4,7 +4,7 @@ title: Academia
 permalink: /academia/
 ---
 
-## Publications, talks
+## Publications
 
 - Josef Koumar, Karel Hynek, and Tomáš Čejka. "Network Traffic Classification based on Single Flow Time Series Analysis." 2023 19th International Conference on Network and Service Management (CNSM). IEEE, 2023. [LINK]()
 
@@ -16,11 +16,11 @@ permalink: /academia/
 
 - Josef Koumar, and Tomáš Čejka. "Network traffic classification based on periodic behavior detection." 2022 18th International Conference on Network and Service Management (CNSM). IEEE, 2022. [LINK](https://ieeexplore.ieee.org/abstract/document/9964556?casa_token=bS2bXYP2LnUAAAAA:qBI9-SzT-RuzX0po_VoqzebCjMD2ydDLMoG581Mws6WWk0yqWvC5Sjr8vpji4rU7YSrDG2Em)
 
-## In review process
+### In review process
 
 - J. Koumar, K. Hynek, J. Pesek, and T. Cejka, NetTiSA: Extended IP Flow with Time-series Features for Universal Bandwidth-constrained High-speed Network Traffic Classification, Computer Networks
 
-## Preprints
+### Preprints
 
 - J. Koumar, K. Hynek, J. Pesek, and T. Cejka, "NetTiSA: Extended IP Flow with Time-series Features for Universal Bandwidth-constrained High-speed Network Traffic Classificatio". [LINK](https://www.researchgate.net/publication/374556767_NetTiSA_Extended_IP_Flow_with_Time-series_Features_for_Universal_Bandwidth-constrained_High-speed_Network_Traffic_Classification)
 
