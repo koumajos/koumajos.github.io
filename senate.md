@@ -1,16 +1,20 @@
 ---
 layout: page
-title: Senate
+title: Kandidatura do senátu
 permalink: /senate/
 ---
 
-## Kandidatura do senátu
+Kandiduji do senátu s hlubokým přesvědčením, že mohu přinést pozitivní změny do naší univerzitní komunity, a to díky svým rozsáhlým zkušenostem z čtyř různých kateder: Katedry číslicového návrhu  (KČN), Katedry aplikované matematiky (KAM), Katedry počítačových systémů (KPS) a Katedry informační bezpečnosti (KIB). Tato rozmanitost zkušeností mi poskytla jedinečný vhled do potřeb a výzev studentů a pedagogů na různých oborech. Pracoval jsem jak jako student, tak jako zaměstnanec na těchto katedrách, což mi umožnilo lépe porozumět potřebám naší univerzitní komunity. Má práce v komisi pro vyhodnocování kvality výuky mi navíc poskytla cenné dovednosti ve zlepšování výuky a komunikaci s různými stranami. Kandiduji s tím, že budu aktivně naslouchat potřebám našich studentů a pedagogů na všech katedrách a pracovat na konkrétních řešeních, která budou přinášet reálné výsledky. Společně můžeme udělat naši fakultu ještě lepší a připravenou na budoucnost, a to je mým hlavním důvodem, proč kandiduji do senátu.
 
-Kandiduji do senátu s hlubokým přesvědčením, že mohu přinést pozitivní změny do naší univerzitní komunity, a to díky svým rozsáhlým zkušenostem z čtyř různých kateder: Katedry číslicového návrhu  (KČN), Katedry aplikované matematiky (KAM), Katedry počítačových systémů (KPS) a Katedry informační bezpečnosti (KIB). Tato rozmanitost zkušeností mi poskytla jedinečný vhled do potřeb a výzev studentů a pedagogů na různých oborech. Pracoval jsem jak jako student, tak jako zaměstnanec na těchto katedrách, což mi umožnilo lépe porozumět potřebám naší univerzitní komunity. Má práce v komisi pro vyhodnocování kvality výuky mi navíc poskytla cenné dovednosti ve zlepšování výuky a komunikaci s různými stranami. Kandiduji s tím, že budu aktivně naslouchat potřebám našich studentů a pedagogů na všech katedrách a pracovat na konkrétních řešeních, která budou přinášet reálné výsledky. Společně můžeme udělat naši univerzitu ještě lepší a připravenou na budoucnost, a to je mým hlavním důvodem, proč kandiduji do senátu.
+![](/pictures/1.png "")
+
+Těmto tématům se chci aktivně věnovat:
 
 ### Kvalita výuky
 
 Již nyní aktivně pracuji z pozice místopředsedy komise pro vyhodnocování kvality výuky na tom, abychom zajišťovali zlepšování výuky na naší fakultě. Mým hlavním cílem je posílení komunikace mezi garanty předmětů a studenty, a to nejenom ohledně obsahu výuky, ale také ohledně studijních materiálů a zkoušek. Chci zajistit, aby studenti měli přístup k dostatečným informacím o svých předmětech a aby mohli být aktivně zapojeni do procesu výuky. Zároveň se snažím podnítit dynamický přístup ke zkoušení, který bude více odpovídat aktuálním výzvám a potřebám studentů. Máme před sebou úkol neustále zdokonalovat kvalitu výuky a poskytovat studentům co nejlepší vzdělávací zkušenost.
+
+![](/pictures/2.png "")
 
 ### Studentské prostředí
 
