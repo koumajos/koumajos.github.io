@@ -31,13 +31,13 @@ Moderní a efektivní informační systémy jsou základem pro plynulé fungová
 
 ## Zdraví studentů
 
-Zdraví studentů je pro nás klíčové, a to jak fyzické, tak psychické. Život na univerzitě může přinášet nároky a výzvy, a proto je esenciální zajistit, že naše studentská komunita má přístup k potřebným zdrojům a podpoře pro udržení svého duševního zdraví. Chceme podporovat programy zaměřené na zvládání stresu a tlaku spojeného s akademickým životem. Je důležité mít k dispozici psychologickou podporu a zároveň pracovat na odstranění stigmat spojených s duševním zdravím. Naším cílem je vytvářet podpůrné studijní prostředí, které napomáhá k duševní pohodě a celkovému blahu studentů.
+Zdraví studentů je pro mě klíčové, a to jak fyzické, tak psychické. Život na univerzitě může přinášet nároky a výzvy, a proto je esenciální zajistit, že naše studentská komunita má přístup k potřebným zdrojům a podpoře pro udržení svého duševního zdraví. Chci podporovat programy zaměřené na zvládání stresu a tlaku spojeného s akademickým životem. Je důležité mít k dispozici psychologickou podporu a zároveň pracovat na odstranění stigmat spojených s duševním zdravím. Mým cílem je vytvářet podpůrné studijní prostředí, které napomáhá k duševní pohodě a celkovému blahu studentů.
 
 ![Pic4](/pictures/4.png)
 
 
 ## Podpora vědy
 
-Podpora studentů v oblasti vědy je zásadní pro naši společnou budoucnost. Věda nám nabízí hluboké pochopení světa kolem nás a otevírá dveře k inovacím a pokroku. Myslíme si, že výzkumné příležitosti by měly být dostupné pro všechny studenty, bez ohledu na úroveň jejich studia. Podněcování vědeckého myšlení a zapojení studentů do vědeckých projektů zvyšuje kvalitu našeho akademického prostředí a připravuje mladé lidi na budoucí výzvy. Ve výzkumných a akademických komisích chceme aktivně podporovat vědecký výzkum a zapojení studentů, aby naše univerzita zůstala centrem objevování a inovací.
+Podpora studentů v oblasti vědy je zásadní pro naši společnou budoucnost. Věda nám nabízí hluboké pochopení světa kolem nás a otevírá dveře k inovacím a pokroku. Myslím si, že výzkumné příležitosti by měly být dostupné pro všechny studenty, bez ohledu na úroveň jejich studia. Podněcování vědeckého myšlení a zapojení studentů do vědeckých projektů zvyšuje kvalitu našeho akademického prostředí a připravuje mladé lidi na budoucí výzvy. Ve výzkumných a akademických komisích chci aktivně podporovat vědecký výzkum a zapojení studentů, aby naše univerzita zůstala centrem objevování a inovací.
 
 ![Picž](/pictures/6.png)
