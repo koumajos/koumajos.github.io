@@ -1,33 +1,43 @@
 ---
 layout: page
-title: Kandidatura do senátu
+title: Kandiduji do senátu
 permalink: /senate/
 ---
 
-Kandiduji do senátu s hlubokým přesvědčením, že mohu přinést pozitivní změny do naší univerzitní komunity, a to díky svým rozsáhlým zkušenostem z čtyř různých kateder: Katedry číslicového návrhu  (KČN), Katedry aplikované matematiky (KAM), Katedry počítačových systémů (KPS) a Katedry informační bezpečnosti (KIB). Tato rozmanitost zkušeností mi poskytla jedinečný vhled do potřeb a výzev studentů a pedagogů na různých oborech. Pracoval jsem jak jako student, tak jako zaměstnanec na těchto katedrách, což mi umožnilo lépe porozumět potřebám naší univerzitní komunity. Má práce v komisi pro vyhodnocování kvality výuky mi navíc poskytla cenné dovednosti ve zlepšování výuky a komunikaci s různými stranami. Kandiduji s tím, že budu aktivně naslouchat potřebám našich studentů a pedagogů na všech katedrách a pracovat na konkrétních řešeních, která budou přinášet reálné výsledky. Společně můžeme udělat naši fakultu ještě lepší a připravenou na budoucnost, a to je mým hlavním důvodem, proč kandiduji do senátu.
+![Picš](/pictures/3.png)
+
+Zaměřuji se na vytvoření komfortního studijního prostředí, kde se studenti cítí jako doma a mohou relaxovat. Usiluji o modernizaci a sjednocení informačních systémů pro efektivní přístup k informacím. Prioritizuji psychické zdraví studentů a nabízím jim podporu v náročných časech. Věřím v aktivní zapojení studentů do vědeckého výzkumu, aby mohli přispět k inovacím a rozvoji.
+
+![Pic5](/pictures/5.png)
+
+
+**Stojím před vámi** s kandidaturou do senátu, protože věřím v lepší budoucnost naší fakulty. Moje zkušenosti sahají přes čtyři katedry: KČN, KAM, KPS a KIB. Jako student i zaměstnanec těchto kateder mám pochopení potřeb a výzev, kterým čelíme. Moje angažovanost v komisi pro vyhodnocování kvality výuky mě naučila, jak pomáhat **zlepšovat** výuku a jak komunikovat s různými skupinami. Mým cílem je naslouchat a pracovat na řešeních, která přinesou skutečné výsledky pro všechny. Společně můžeme udělat naši fakultu silnější a více připravenou na výzvy budoucnosti. Je to můj hlavní důvod, proč se ucházím o místo v senátu.
 
 ![Pic1](/pictures/1.png)
 
-Těmto tématům se chci aktivně věnovat:
+## Kvalita výuky
 
-### Kvalita výuky
-
-Již nyní aktivně pracuji z pozice místopředsedy komise pro vyhodnocování kvality výuky na tom, abychom zajišťovali zlepšování výuky na naší fakultě. Mým hlavním cílem je posílení komunikace mezi garanty předmětů a studenty, a to nejenom ohledně obsahu výuky, ale také ohledně studijních materiálů a zkoušek. Chci zajistit, aby studenti měli přístup k dostatečným informacím o svých předmětech a aby mohli být aktivně zapojeni do procesu výuky. Zároveň se snažím podnítit dynamický přístup ke zkoušení, který bude více odpovídat aktuálním výzvám a potřebám studentů. Máme před sebou úkol neustále zdokonalovat kvalitu výuky a poskytovat studentům co nejlepší vzdělávací zkušenost.
+Jsem místopředsedou komise pro vyhodnocování kvality výuky a aktivně pracuji na zlepšení výuky na naší fakultě. Mým klíčovým cílem je posílit komunikaci mezi garanty předmětů a studenty nejen v obsahu výuky, ale i v studijních materiálech a zkouškách. Chci, aby studenti byli informováni a aktivně zapojeni do výuky. Usiluji o moderní a flexibilní přístup ke zkouškám, který reflektuje aktuální potřeby studentů. Naším společným úkolem je poskytnout studentům tu nejlepší vzdělávací zkušenost.
 
 ![Pic2](/pictures/2.png)
 
-### Studentské prostředí
+## Studentské prostředí
 
-Studijní prostředí má zásadní vliv na úspěch a pohodu studentů. Je důležité, aby naše fakulta byla místem, kde se studenti nejenom učí, ale také cítí jako doma. Zasazuji se o vytvoření prostředí, které podporuje zpříjemnění studijního prostoru. To zahrnuje zajištění kavárny, ve které mohou studenti relaxovat a setkávat se s kolegy, což může být důležité pro budování komunity. Studijní prostředí v podobě relaxačních zón již existuje, a já bych rád tuto cennou část naší fakulty kultivoval a dále zlepšil. Věřím, že můžeme tato místa ještě více vylepšit, aby poskytovala studentům komfort a pohodu. Mým cílem je rozvíjet tyto relaxační prostory, aby se staly ideálním místem pro studium a odpočinek. Protože pohodlné a přátelské prostředí může motivovat studenty k většímu zapojení do studia a ke spolupráci, což přispěje k jejich úspěchu, duševnímu zdraví a celkovému pohodlí na fakultě.
+Věřím v klíčovou roli studijního prostředí pro úspěch a pohodu studentů. Naše fakulta by měla být místem, kde se studenti nejen učí, ale cítí se zde jako doma. Představuji si fakultu s kavárnou pro relaxaci a setkávání s kolegy a s moderními relaxačními zónami pro klidné studium. Máme již některé z těchto prostor, ale je třeba je dále kultivovat a rozšiřovat. Mé odhodlání je zaměřeno na vytváření takových prostor, které budou ideálním místem pro studium i odpočinek. Protože pohodlné a přátelské prostředí může významně přispět k úspěchu a duševní pohodě našich studentů.
 
-### Informační systémy
+## Informační systémy
 
-Je nesporné, že informační systémy na naší fakultě mohou být místem některých obtíží. Někdy jsou systémy zastaralé, nepřehledné, a jejich fragmentace vytváří zmatek mezi studenty a vyučujícími. Přístup k informacím je klíčový pro úspěch našich studentů a efektivní práci pedagogického sboru. Rád bych se zasazoval o řešení tohoto problému prostřednictvím zpřehlednění a sjednocení našich informačních systémů. Měli bychom investovat do modernizace a optimalizace těchto systémů, aby byly snadno použitelné a poskytovaly relevantní a aktuální informace. Zjednodušení přístupu ke studijním materiálům a informacím může zvýšit efektivitu výuky a umožnit studentům lépe se soustředit na své studium. Toto zlepšení by mohlo být motivačním faktorem pro všechny členy univerzitní komunity, a já se zavazuji, že budu aktivně pracovat na tomto řešení.
+Moderní a efektivní informační systémy jsou základem pro plynulé fungování fakulty. Současné systémy na naší fakultě někdy mohou být zastaralé a nepřehledné, což může vést k nejasnostem mezi studenty a pedagogy. Klíčové je mít přístup k aktuálním a relevantním informacím. Proto bych rád podporoval zpřehlednění a sjednocení našich systémů, investice do jejich modernizace a optimalizace. Snazší přístup ke studijním materiálům a aktuálním informacím může pozitivně ovlivnit výukový proces a pomoci studentům v jejich studiu. Věřím, že taková změna může motivovat celou univerzitní komunitu, a jsem odhodlán pracovat na tomto zlepšení.
 
-### Zdraví studentů
+## Zdraví studentů
 
-Zdraví studentů je pro mě prioritou, a to nejen v fyzickém smyslu, ale i v oblasti jejich psychického blaha. Vysokoškolský život může být náročný a stresující, a je důležité, abychom zajistili, že naše studentská komunita má přístup k dostatečné podpoře a zdrojům pro zachování svého psychického zdraví. Rád bych se zasazoval o vytvoření a podporu programů, které pomohou studentům zvládat stres a tlak spojený s jejich studiem. Důležité je také odstranění stigmatizace duševního zdraví a zajistit, aby studenti měli snadný přístup k psychologické pomoci, kdykoliv ji budou potřebovat. Zajímá mě, jakým způsobem můžeme společně vytvořit zdravější a podpůrnější studijní prostředí, které bude přispívat ke spokojenosti a pohodě studentů.
+Zdraví studentů je pro nás klíčové, a to jak fyzické, tak psychické. Život na univerzitě může přinášet nároky a výzvy, a proto je esenciální zajistit, že naše studentská komunita má přístup k potřebným zdrojům a podpoře pro udržení svého duševního zdraví. Chceme podporovat programy zaměřené na zvládání stresu a tlaku spojeného s akademickým životem. Je důležité mít k dispozici psychologickou podporu a zároveň pracovat na odstranění stigmat spojených s duševním zdravím. Naším cílem je vytvářet podpůrné studijní prostředí, které napomáhá k duševní pohodě a celkovému blahu studentů.
 
-### Podpora vědy
+![Pic4](/pictures/4.png)
 
-Věřím, že zapojení studentů do vědy je klíčem k naší budoucnosti. Věda nám nejen poskytuje znalosti a nástroje k lepšímu porozumění světu, ale také nám dává možnost aktivně přispět k rozvoji a inovacím. Jsem přesvědčen, že výzkum a věda by měly být dostupné všem studentům, a to nejen těm, kteří studují na postgraduální úrovni. Zasazovat se o rozvoj vědeckého myšlení a přístupu k vědeckým projektům mezi studenty je klíčovým prvkem, který posiluje akademické prostředí a připravuje budoucí generace na výzvy 21. století. V akademickém senátu bych se chtěl angažovat ve prospěch podpory vědeckého výzkumu a zapojení studentů do vědy, abychom mohli společně podnítit kreativitu a objevování v naší univerzitní komunitě.
+
+## Podpora vědy
+
+Podpora studentů v oblasti vědy je zásadní pro naši společnou budoucnost. Věda nám nabízí hluboké pochopení světa kolem nás a otevírá dveře k inovacím a pokroku. Myslíme si, že výzkumné příležitosti by měly být dostupné pro všechny studenty, bez ohledu na úroveň jejich studia. Podněcování vědeckého myšlení a zapojení studentů do vědeckých projektů zvyšuje kvalitu našeho akademického prostředí a připravuje mladé lidi na budoucí výzvy. Ve výzkumných a akademických komisích chceme aktivně podporovat vědecký výzkum a zapojení studentů, aby naše univerzita zůstala centrem objevování a inovací.
+
+![Picž](/pictures/6.png)
