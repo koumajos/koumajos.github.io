@@ -41,3 +41,4 @@ permalink: /academia/
 - Researcher at [Network Traffic Monitoring Lab (Netmon)](https://netmon.fit.cvut.cz/en)
 - Academic staff member at [Digital Design Department](https://ddd.fit.cvut.cz) at [FIT CTU](https://fit.cvut.cz)
 - President of IEEE Student Branch for CTU, Czechoslovakia Section
+- Vice-chairman of the Commission for Evaluation of Education Quality of the Academic Senate of the Faculty of Information Technologies CTU in Prague
