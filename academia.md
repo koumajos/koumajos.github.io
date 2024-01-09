@@ -18,6 +18,12 @@ permalink: /academia/
 
 - Josef Koumar, and Tomáš Čejka. "Network traffic classification based on periodic behavior detection." 2022 18th International Conference on Network and Service Management (CNSM). IEEE, 2022. [LINK](https://ieeexplore.ieee.org/abstract/document/9964556?casa_token=bS2bXYP2LnUAAAAA:qBI9-SzT-RuzX0po_VoqzebCjMD2ydDLMoG581Mws6WWk0yqWvC5Sjr8vpji4rU7YSrDG2Em)
 
+## Workshops, posters, etc
+
+- K. Jerabek, J. Koumar, D. Poliakov, and J. Pesek, *Workshop on AI and and traffic classification*, NECS – PhD Winter School, 2024, [LINK](https://necs-winterschool.disi.unitn.it/)
+
+- J. Koumar, T. Čejka. "Detection and recognition of periodic communication in network traffic" 2022, [LINK](https://www.linkedin.com/in/josef-koumar/details/education/782487460/multiple-media-viewer/?profileId=ACoAADpBm3EB8pWoZzFHfYgg53NrNnwh1DkQSLo&treasuryMediaId=1635495494901)
+
 ### Preprints
 
 - J. Koumar, K. Hynek, J. Pesek, and T. Cejka, "NetTiSA: Extended IP Flow with Time-series Features for Universal Bandwidth-constrained High-speed Network Traffic Classificatio". [LINK](https://www.researchgate.net/publication/374556767_NetTiSA_Extended_IP_Flow_with_Time-series_Features_for_Universal_Bandwidth-constrained_High-speed_Network_Traffic_Classification)
