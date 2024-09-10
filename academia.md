@@ -6,6 +6,10 @@ permalink: /academia/
 
 ## Publications
 
+- Jančička, L., Soukup, D., Koumar, J., Němec, F., & Čejka, T. MFWDD: Model-based Feature Weight Drift Detection Showcased on TLS and QUIC Traffic - Will be in presented CNSM 2024.
+
+- Jančička, L., Koumar, J., Soukup, D., & Čejka, T. (2024, May). Analysis of Statistical Distribution Changes of Input Features in Network Traffic Classification Domain. In NOMS 2024-2024 IEEE Network Operations and Management Symposium (pp. 1-4). IEEE. [LINK](https://ieeexplore.ieee.org/abstract/document/10575630?casa_token=d1ejccI4BjMAAAAA:qdcErwrNzaaq9o2lhoYFwsTVG6X8UxcPg2-H60dAUSXDN2EM95lbcev-o2A1Tt0zs9apOMelC2o)
+
 - Josef Koumar, Karel Hynek, Jaroslav Pešek, and Tomáš Čejka. "NetTiSA: Extended IP flow with time-series features for universal bandwidth-constrained high-speed network traffic classification" Computer Networks, 2024, 110147. DOI: doi.org/10.1016/j.comnet.2023.110147 [LINK](https://www.sciencedirect.com/science/article/pii/S1389128623005923?via%3Dihub)
 
 - Josef Koumar, Karel Hynek, and Tomáš Čejka. "Network Traffic Classification based on Single Flow Time Series Analysis." 2023 19th International Conference on Network and Service Management (CNSM). IEEE, 2023. [LINK](https://ieeexplore.ieee.org/document/10327876)
@@ -24,7 +28,9 @@ permalink: /academia/
 
 - J. Koumar, T. Čejka. "Detection and recognition of periodic communication in network traffic" 2022, [LINK](https://www.linkedin.com/in/josef-koumar/details/education/782487460/multiple-media-viewer/?profileId=ACoAADpBm3EB8pWoZzFHfYgg53NrNnwh1DkQSLo&treasuryMediaId=1635495494901)
 
-### Preprints
+## Preprints
+
+- J. Koumar, K. Hynek, T. Cejka and P. Šiška, "Unsupervised Time Series Dataset from a High-Speed ISP Network for Anomaly Detection in Network Traffic". - will be added to arxiv in matter of days
 
 - J. Koumar, K. Hynek, J. Pesek, and T. Cejka, "NetTiSA: Extended IP Flow with Time-series Features for Universal Bandwidth-constrained High-speed Network Traffic Classificatio". [LINK](https://www.researchgate.net/publication/374556767_NetTiSA_Extended_IP_Flow_with_Time-series_Features_for_Universal_Bandwidth-constrained_High-speed_Network_Traffic_Classification)
 
@@ -32,9 +38,17 @@ permalink: /academia/
 
 - Josef Koumar, and Tomas Čejka. "Unevenly Spaced Time Series from Network Traffic." [LINK](https://www.researchgate.net/publication/371530461_Unevenly_Spaced_Time_Series_from_Network_Traffic)
 
+## Chairing
+
+- Poster Co-Chair at 20th International Conference on Network and Service Management (CNSM) 2024 [LINK](http://www.cnsm-conf.org/2024/committees.html)
+
+- Member of Session Committee of PhD Workshop at 20th International Conference on Network and Service Management (CNSM) 2024 [LINK](http://www.cnsm-conf.org/2024/cfphd.html)
+
+- Student Poster Session Co-Chair at The 12th Prague Embedded Systems Workshop (PESW) 2024 [LINK](https://pesw.fit.cvut.cz/2024/index.php?page=Committees)
+
 ## What I am working on right now
 
-- Anomaly detection dataset from CESNET2 network
+- Anomaly detection dataset from CESNET3 network
 
 - Anomaly detection in ISP networks using time series analysis
 

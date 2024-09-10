@@ -54,7 +54,7 @@ header_pages:
   - index.md
   - academia.md
   - teaching.md
-  - senate.md
+  # - senate.md
 
 social:
   - { username: koumajos@fit.cvut.cz, platform: mail, user_url: "mailto:koumajos@fit.cvut.cz" }  
