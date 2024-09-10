@@ -52,6 +52,7 @@ plugins:
 
 header_pages:
   - index.md
+  - education.md
   - academia.md
   - teaching.md
   # - senate.md
