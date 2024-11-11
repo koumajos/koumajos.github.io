@@ -30,7 +30,7 @@ permalink: /publications/
 
 ## Preprints
 
-- J. Koumar, K. Hynek, T. Cejka and P. Šiška, "Unsupervised Time Series Dataset from a High-Speed ISP Network for Anomaly Detection in Network Traffic". - will be added to arxiv in matter of days
+- J. Koumar, K. Hynek, T. Cejka and P. Šiška, "CESNET-TimeSeries24: Time Series Dataset for Network Traffic Anomaly Detection and Forecasting". [LINK](https://www.researchgate.net/publication/384447620_CESNET-TimeSeries24_Time_Series_Dataset_for_Network_Traffic_Anomaly_Detection_and_Forecasting)
 
 - J. Koumar, K. Hynek, J. Pesek, and T. Cejka, "NetTiSA: Extended IP Flow with Time-series Features for Universal Bandwidth-constrained High-speed Network Traffic Classificatio". [LINK](https://www.researchgate.net/publication/374556767_NetTiSA_Extended_IP_Flow_with_Time-series_Features_for_Universal_Bandwidth-constrained_High-speed_Network_Traffic_Classification)
 

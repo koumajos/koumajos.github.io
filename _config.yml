@@ -67,5 +67,6 @@ social:
   - { username: josef-koumar, platform: linkedin,       user_url: "https://www.linkedin.com/in/josef-koumar/" }
   - { username: koumar97, platform: twitter,        user_url: "https://twitter.com/koumar97" }
   - { username: ResearchGate, platform: mail,        user_url: "https://www.researchgate.net/profile/Josef-Koumar" }
+  - { username: GoogleScholar, platform: mail,        user_url: "https://scholar.google.com/citations?user=J-mjgOEAAAAJ&hl=en&oi=ao" }
 
 show_excerpts: true
