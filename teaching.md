@@ -12,6 +12,21 @@ Students understand the basic common techniques, protocols, technologies, and al
 
 The course introduces students with basic and advanced technologies, components, and interfaces of contemporary computer networks at the physical layer with the overlap to the link layer. The lectures provide theoretical foundations of these technologies and explain relevant physical principles. In the labs, the respective technologies will be demonstrated and with the most important ones students will get hands-on experience. Thematically, the course covers both local and long-range optical networks, Ethernet, modern wireless networks, always with focus on high-speed networks.
 
-## Basic Python and Data Science
+## Fundamentals of the Python programming language
 
-Data science is the field of extracting information from data using scientific methods, statistics and algorithms. It is used in a number of fields, such as economics, informatics, medicine, etc. The course guides participants through the basics of Python programming, data collection and storage, data visualization and analysis. As part of data analysis, statistical analysis, machine learning and time series analysis will be demonstrated. The course will prepare students to obtain the PCAP cisco certification, which is part of this course. Graduates of the course will be prepared for the basic use of Python, will be introduced to data science issues, and will be prepared to use Python for data analysis.
+- The essentials about the philosophy and history of the Python language.
+- The environment: command line, scripts, Jupyter notebooks or virtual environment.
+- The syntax of the Python programming language.
+- The data and control structures in Python.
+- The Python standard library.
+- Working with files (binary, csv, json, yaml...).
+- Scripting with the Python language.
+
+## Basic Data Science
+
+- The theoretical minimum of data analysis and science.
+- The libraries suitable for data science - Pandas, Numpy and others.
+- Statistical analysis and data visualization.
+- Machine learning - from data preprocessing to basic classification using machine learning algorithms to applying machine learning to a real problem.
+- Deep learning and basic classification using deep learning algorithms.
+- Theoretical foundations of time series analysis and the know-how for their analysis and evaluation.

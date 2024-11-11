@@ -53,16 +53,19 @@ plugins:
 header_pages:
   - index.md
   - education.md
-  - academia.md
+  - publications.md
+  - projects.md
+  - conferences.md
   - teaching.md
   # - senate.md
 
 social:
   - { username: koumajos@fit.cvut.cz, platform: mail, user_url: "mailto:koumajos@fit.cvut.cz" }  
   - { username: koumajos, platform: github, user_url: "https://github.com/koumajos" }
+  - { username: myresearch, platform: github, user_url: "https://github.com/koumajos/myresearch/tree/main" }
   - { username: 0000-0002-3643-9723, platform: orcid,        user_url: "https://orcid.org/0000-0002-3643-9723" }
   - { username: josef-koumar, platform: linkedin,       user_url: "https://www.linkedin.com/in/josef-koumar/" }
   - { username: koumar97, platform: twitter,        user_url: "https://twitter.com/koumar97" }
-  - { username: Josef-Koumar, platform: researchgate,        user_url: "https://www.researchgate.net/profile/Josef-Koumar" }
+  - { username: ResearchGate, platform: mail,        user_url: "https://www.researchgate.net/profile/Josef-Koumar" }
 
 show_excerpts: true
