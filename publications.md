@@ -4,8 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-## Publications
-
 - Jančička, L., Soukup, D., Koumar, J., Němec, F., & Čejka, T. MFWDD: Model-based Feature Weight Drift Detection Showcased on TLS and QUIC Traffic - Presented at CNSM 2024.
 
 - Jančička, L., Koumar, J., Soukup, D., & Čejka, T. (2024, May). Analysis of Statistical Distribution Changes of Input Features in Network Traffic Classification Domain. In NOMS 2024-2024 IEEE Network Operations and Management Symposium (pp. 1-4). IEEE. [LINK](https://ieeexplore.ieee.org/abstract/document/10575630?casa_token=d1ejccI4BjMAAAAA:qdcErwrNzaaq9o2lhoYFwsTVG6X8UxcPg2-H60dAUSXDN2EM95lbcev-o2A1Tt0zs9apOMelC2o)

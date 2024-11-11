@@ -4,8 +4,6 @@ title: Research projects
 permalink: /projects/
 ---
 
-## Research projects
-
 - CYBERTHRETS (OYCESNET20221, Use of artificial intelligence for defence against cyber security attacks)
 
 - Smart ADS (TH04010073, cooperation with Flowmon Networks supported by Technology Agency (TAČR))
