@@ -4,15 +4,21 @@ title: Publications
 permalink: /publications/
 ---
 
+In 2025:
+
 - **Josef Koumar**, Karel Hynek, Tomáš Čejka, and Pavel Šiška. "CESNET-TimeSeries24: Time Series Dataset for Network Traffic Anomaly Detection and Forecasting" - Submitted to Nature Scientific Data (in 2. review round).
 
 - **Josef Koumar**, Jaroslav Pešek, Kamil Jeřábek, and Tomáš Čejka. "Towards Building Network Outlier Detection System for Network Traffic Monitoring" - Will be Presented at NOMS 2025.
+
+In 2024:
 
 - Lukáš Jančička, Dominik Soukup, **Josef Koumar**, Filip Němec, and Tomáš Čejka. "MFWDD: Model-based Feature Weight Drift Detection Showcased on TLS and QUIC Traffic" - In 2024 20th International Conference on Network and Service Management (CNSM). [LINK](https://ieeexplore.ieee.org/abstract/document/10814630)
 
 - Lukáš Jančička, **Josef Koumar**, Dominik Soukup, and Tomáš Čejka. (2024, May). Analysis of Statistical Distribution Changes of Input Features in Network Traffic Classification Domain. In NOMS 2024-2024 IEEE Network Operations and Management Symposium (pp. 1-4). IEEE. [LINK](https://ieeexplore.ieee.org/abstract/document/10575630?casa_token=d1ejccI4BjMAAAAA:qdcErwrNzaaq9o2lhoYFwsTVG6X8UxcPg2-H60dAUSXDN2EM95lbcev-o2A1Tt0zs9apOMelC2o)
 
 - **Josef Koumar**, Karel Hynek, Jaroslav Pešek, and Tomáš Čejka. "NetTiSA: Extended IP flow with time-series features for universal bandwidth-constrained high-speed network traffic classification" Computer Networks, 2024, 110147. DOI: doi.org/10.1016/j.comnet.2023.110147 [LINK](https://www.sciencedirect.com/science/article/pii/S1389128623005923?via%3Dihub)
+
+In 2023:
 
 - **Josef Koumar**, Karel Hynek, and Tomáš Čejka. "Network Traffic Classification based on Single Flow Time Series Analysis." 2023 19th International Conference on Network and Service Management (CNSM). IEEE, 2023. [LINK](https://ieeexplore.ieee.org/document/10327876)
 
@@ -21,6 +27,8 @@ permalink: /publications/
 - **Josef Koumar**, and Tomáš Čejka. "Unevenly Spaced Time Series from Network Traffic." 2023 7th Network Traffic Measurement and Analysis Conference (TMA). IEEE, 2023. [LINK](https://ieeexplore.ieee.org/abstract/document/10198988/?casa_token=1mDX5lLg-wUAAAAA:jXRcvBAj-v8vIz3QBro5SfF5GIeXQor8DQouhHg7mvXOCdqsQY2SNt6yJUsCg-fhhB3c9wGi)
 
 - Jaroslav Pešek, Richard Plný, **Josef Koumar**, Kamil Jeřábek, and Tomáš Čejka, *Augmenting Monitoring Infrastructure For Dynamic Software-Defined Networks*, 2023 8th International Conference on Smart and Sustainable Technologies, 2023, [LINK](https://ieeexplore.ieee.org/abstract/document/10193216)
+
+In 2022:
 
 - **Josef Koumar**, and Tomáš Čejka. "Network traffic classification based on periodic behavior detection." 2022 18th International Conference on Network and Service Management (CNSM). IEEE, 2022. [LINK](https://ieeexplore.ieee.org/abstract/document/9964556?casa_token=bS2bXYP2LnUAAAAA:qBI9-SzT-RuzX0po_VoqzebCjMD2ydDLMoG581Mws6WWk0yqWvC5Sjr8vpji4rU7YSrDG2Em)
 
