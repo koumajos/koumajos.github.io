@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Reflecting on CNSM 2024: A Milestone in Network and Service Management"
+date: 2024-11-01 00:00:00 +0200
+---
+
+
+The **20th International Conference on Network and Service Management (CNSM 2024)**, held from October 28 to 31, 2024, in Prague, Czech Republic, marked a significant milestone in the field of network and service management. As the Poster Session Chair and a member of the local organizing team, I had the privilege of contributing to this landmark event.
+
+## A Focus on AI-Powered Management
+
+This year's conference centered on the theme: **"AI-Powered Network and Service Management for Tomorrow's Digital World"**. The program featured insightful keynotes, including:
+
+- **Sebastian Garcia** from the Czech Technical University in Prague, who discussed the dual role of AI in enhancing network security and the potential risks it introduces.
+
+- **Martin Rehak**, CEO & Founder of Resistant AI, who shared experiences in deploying AI to combat cyber threats across various domains.
+
+- **Prof. Luciano Paschoal Gaspary** from the Federal University of Rio Grande do Sul, Brazil, who explored the integration of AI/ML with network programmability to address operational challenges.
+
+These discussions underscored the transformative impact of AI on network management and security.
+
+## Poster Sessions: Showcasing Emerging Research
+
+As the Poster Session Chair, I oversaw sessions that provided a platform for researchers, young professionals, and students to present their work. The poster track covered a wide range of topics, including:
+
+- Upcoming research challenges and future directions.
+- Preliminary results of novel ideas.
+- Research questions and solution ideas as part of Ph.D. and M.Sc. theses.
+
+These sessions facilitated vibrant discussions and fostered collaborations among participants.
+
+## Local Organization: A Collaborative Effort
+
+The success of CNSM 2024 was a result of the collaborative efforts of the local organizing team, including contributions from **CESNET** and the **Faculty of Information Technology at the Czech Technical University in Prague**. The conference provided a platform for experts to discuss the benefits and challenges of integrating AI into network management, emphasizing the importance of explainability and high-quality datasets.
+
+## Looking Ahead
+
+CNSM 2024 highlighted the evolving landscape of network and service management, particularly the integration of AI technologies. The discussions and presentations underscored the need for ongoing research to address challenges such as data variability and the practical deployment of AI-based solutions. As we look to the future, the insights gained from this conference will undoubtedly shape the direction of network and service management.
+
+For more details about CNSM 2024, please visit the official website: [CNSM 2024](https://cnsm-conf.org/2024/).
+
+![group-foto](/pictures/blog/4/group-foto.png)
