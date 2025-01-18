@@ -8,11 +8,7 @@ picture: pic.jpg
 
 I am Josef, a PhD candidate in the [Netmon](https://netmon.fit.cvut.cz) research group. We work in the field of network traffic monitoring and analysis. Right now, I am primarily interested in network traffic monitoring and classification using time series analysis, statistics in the field of computer networks and the application of machine learning in the same field. I also teach (Computer Networks and Computer Networks Technologies for undergrads) and I am also lector of Basic Python and Data Science course on FEL CTU.
 
-## Bio (for conferences, 2023)
-
-Josef Koumar is a PhD candidate with the Faculty of Information Technology, Czech Technical University in Prague, focusing on detecting threats and classifications of encrypted network traffic using time series analysis and also interested in anomaly detection. He is also working as a Researcher at CESNET a.l.e., the operator of the Czech national research and educational networks.
-
-## Memberships
+## Working as
 
 - Researcher at [Network Traffic Monitoring Lab (Netmon)](https://netmon.fit.cvut.cz/en)
 - Academic staff member at [Digital Design Department](https://ddd.fit.cvut.cz) at [FIT CTU](https://fit.cvut.cz)

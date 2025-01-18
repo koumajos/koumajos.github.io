@@ -53,10 +53,8 @@ plugins:
 header_pages:
   - index.md
   - education.md
+  - academia.md
   - publications.md
-  - projects.md
-  - conferences.md
-  - teaching.md
   - blog.md
   # - senate.md
 
