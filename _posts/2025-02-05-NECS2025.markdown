@@ -4,15 +4,15 @@ title: "Forecasting for Network Anomaly Detection – Insights from NeCS Winter 
 date: 2025-01-12 19:30:00 +0200
 ---
 
-A collaborative team of researchers from the Faculty of Information Technology at Czech Technical University in Prague (FIT ČVUT) and the Faculty of Information Technology at Brno University of Technology (FIT VUT) introduced a unique anomaly detection method for network traffic using forecasting at the interdisciplinary **NeCS Winter PhD School**. The team, consisting of **Ing. Josef Koumar and Ing. Jaroslav Pešek from FIT ČVUT**, along with **Ing. Kamil Jeřábek, Ph.D., and Ing. Jiří Setinský from FIT VUT**, conducted an innovation workshop focused on utilizing predictive models for detecting network anomalies in advance.
+A collaborative team of researchers from the Faculty of Information Technology at Czech Technical University in Prague (FIT ČVUT) and the Faculty of Information Technology at Brno University of Technology (FIT VUT) introduced a unique anomaly detection method for network traffic using forecasting at the interdisciplinary **NeCS Winter PhD School**. The team, consisting of **Josef Koumar and Jaroslav Pešek from FIT CTU**, along with **Kamil Jeřábek, and Jiří Setinský from FIT BUT**, conducted an innovation workshop focused on utilizing predictive models for detecting network anomalies in advance.
 
 ## Forecasting in Cybersecurity
 
 Forecasting relies on analyzing historical data and continuously updating models to predict the most probable future behavior of network traffic. In **cybersecurity**, such predictions enable quick identification of unexpected changes—whether they stem from intrusion attempts or other cyberattacks that manifest as unusual traffic patterns or deviations in transmitted data.
 
-> "Our primary objective was to demonstrate that statistical modeling and forecasting, combined with modern data processing tools, can effectively detect even the most subtle anomalies," said **Ing. Jaroslav Pešek from FIT ČVUT**.
+> "Our primary objective was to demonstrate that statistical modeling and forecasting, combined with modern data processing tools, can effectively detect even the most subtle anomalies," said **Jaroslav Pešek from FIT CTU**.
 
-> "With this method, we can identify unusual network behavior in advance and respond proactively to potential cybersecurity incidents," added **Ing. Josef Koumar**.
+> "With this method, we can identify unusual network behavior in advance and respond proactively to potential cybersecurity incidents," added **Josef Koumar from FIT CTU**.
 
 Workshop participants had the opportunity to **experiment with forecasting techniques using real network traffic samples**, witnessing firsthand how predictive models detect unexpected changes. Through this **intensive hands-on session**, students and professionals alike learned how to integrate forecasting technology into **existing security tools**, significantly enhancing their effectiveness.
 
@@ -20,7 +20,7 @@ Workshop participants had the opportunity to **experiment with forecasting techn
 
 The **NeCS PhD School** is renowned for its **interdisciplinary and international nature**, fostering an environment where researchers from diverse institutions can collaborate and share knowledge. This initiative not only facilitates the exchange of **cutting-edge insights into cybersecurity threats** but also helps establish a thriving **community of experts** working together to advance the field.
 
-The team from **FIT ČVUT and FIT VUT** demonstrated that **forecasting is a promising approach for strengthening network security** in an era where cyber threats continuously evolve. The importance of such methodologies is further reinforced by the **acceptance of their research work at NOMS 2025**, a globally recognized conference where these findings will be presented to the broader **cybersecurity research community**.
+The team from **FIT CTU and FIT BUT** demonstrated that **forecasting is a promising approach for strengthening network security** in an era where cyber threats continuously evolve. The importance of such methodologies is further reinforced by the **acceptance of their research work at NOMS 2025**, a globally recognized conference where these findings will be presented to the broader **cybersecurity research community**.
 
 For more information, visit:
 
