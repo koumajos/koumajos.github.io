@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Forecasting for Network Anomaly Detection – Insights from NeCS Winter PhD School"
+date: 2025-01-12 19:30:00 +0200
+---
+
+A collaborative team of researchers from the Faculty of Information Technology at Czech Technical University in Prague (FIT ČVUT) and the Faculty of Information Technology at Brno University of Technology (FIT VUT) introduced a unique anomaly detection method for network traffic using forecasting at the interdisciplinary **NeCS Winter PhD School**. The team, consisting of **Ing. Josef Koumar and Ing. Jaroslav Pešek from FIT ČVUT**, along with **Ing. Kamil Jeřábek, Ph.D., and Ing. Jiří Setinský from FIT VUT**, conducted an innovation workshop focused on utilizing predictive models for detecting network anomalies in advance.
+
+## Forecasting in Cybersecurity
+
+Forecasting relies on analyzing historical data and continuously updating models to predict the most probable future behavior of network traffic. In **cybersecurity**, such predictions enable quick identification of unexpected changes—whether they stem from intrusion attempts or other cyberattacks that manifest as unusual traffic patterns or deviations in transmitted data.
+
+> "Our primary objective was to demonstrate that statistical modeling and forecasting, combined with modern data processing tools, can effectively detect even the most subtle anomalies," said **Ing. Jaroslav Pešek from FIT ČVUT**.
+
+> "With this method, we can identify unusual network behavior in advance and respond proactively to potential cybersecurity incidents," added **Ing. Josef Koumar**.
+
+Workshop participants had the opportunity to **experiment with forecasting techniques using real network traffic samples**, witnessing firsthand how predictive models detect unexpected changes. Through this **intensive hands-on session**, students and professionals alike learned how to integrate forecasting technology into **existing security tools**, significantly enhancing their effectiveness.
+
+## International Scope
+
+The **NeCS PhD School** is renowned for its **interdisciplinary and international nature**, fostering an environment where researchers from diverse institutions can collaborate and share knowledge. This initiative not only facilitates the exchange of **cutting-edge insights into cybersecurity threats** but also helps establish a thriving **community of experts** working together to advance the field.
+
+The team from **FIT ČVUT and FIT VUT** demonstrated that **forecasting is a promising approach for strengthening network security** in an era where cyber threats continuously evolve. The importance of such methodologies is further reinforced by the **acceptance of their research work at NOMS 2025**, a globally recognized conference where these findings will be presented to the broader **cybersecurity research community**.
+
+For more information, visit:
+
+- **NeCS Winter PhD School** – [https://necs-winterschool.disi.unitn.it/](https://necs-winterschool.disi.unitn.it/)
+- **NOMS 2025 Conference** – [https://noms2025.ieee-noms.org/](https://noms2025.ieee-noms.org/)
+
+The workshop is available here:
+
+- [https://drive.google.com/drive/folders/1MLxFjrnQPRy0avbM9VMuwOyDw1UYoia-?usp=sharing](https://drive.google.com/drive/folders/1MLxFjrnQPRy0avbM9VMuwOyDw1UYoia-?usp=sharing)
+
+![foto1](/pictures/blog/7/1.png)
+![foto2](/pictures/blog/7/2.png)
+![foto3](/pictures/blog/7/3.png)
+![foto4](/pictures/blog/7/4.png)
