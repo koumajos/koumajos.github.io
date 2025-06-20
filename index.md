@@ -14,12 +14,11 @@ I am Josef, a PhD candidate in the [Netmon](https://netmon.fit.cvut.cz) research
 - Academic staff member at [Digital Design Department](https://ddd.fit.cvut.cz) at [FIT CTU](https://fit.cvut.cz)
 - President of IEEE Student Branch for CTU, Czechoslovakia Section
 - Senator in the Academic SenateSenator in the Academic Senate at [Faculty of Information Technology CTU in Prague](https://fit.cvut.cz)
-- Vice-chairman of the Commission for Evaluation of Education Quality of the Academic Senate of the [Faculty of Information Technologies CTU in Prague](https://fit.cvut.cz)
 
 ## What I am working on right now
 
-- Anomaly detection dataset from CESNET3 network
+- Network traffic forecasting in ISP networks
 
 - Anomaly detection in ISP networks using time series analysis
 
-- Clustering of time series
+- Clustering of network traffic time series

@@ -6,11 +6,15 @@ permalink: /publications/
 
 In 2025:
 
-- **Josef Koumar**, Karel Hynek, Tomáš Čejka, and Pavel Šiška. "CESNET-TimeSeries24: Time Series Dataset for Network Traffic Anomaly Detection and Forecasting" - Accepted to Nature Scientific Data.
+- **Josef Koumar**, Karel Hynek, Tomáš Čejka, and Pavel Šiška. "CESNET-TimeSeries24: Time Series Dataset for Network Traffic Anomaly Detection and Forecasting". Scientific Data 12.1 (2025): 338. [LINK](https://www.nature.com/articles/s41597-025-04603-x)
 
-- **Josef Koumar**, Jaroslav Pešek, Kamil Jeřábek, and Tomáš Čejka. "Towards Building Network Outlier Detection System for Network Traffic Monitoring" - Will be Presented at NOMS 2025.
+- **Josef Koumar**, Jaroslav Pešek, Kamil Jeřábek, and Tomáš Čejka. "Towards Building Network Outlier Detection System for Network Traffic Monitoring" - Presented at NOMS 2025.
 
-- Kamil Jeřábek, **Josef Koumar**, Jiří Setinský, and Jaroslav Pešek. "Explainable Anomaly Detection in Network Traffic Using LLM" - Submitted to GAIN NOMS 2025.
+- Kamil Jeřábek, **Josef Koumar**, Jiří Setinský, and Jaroslav Pešek. "Explainable Anomaly Detection in Network Traffic Using LLM" - Presented at GAIN NOMS 2025.
+
+- Kamil Jerabek, Jan Luxemburk, Richard Plny, **Josef Koumar**, Jaroslav Pesek, and Karel Hynek. "When Simple Model Just Works: Is Network Traffic Classification in Crisis?". arXiv preprint arXiv:2506.08655. [LINK](https://arxiv.org/abs/2506.08655)
+
+- **Josef Koumar**, Timotej Smoleň., Kamil Jeřábek, and Tomáš Čejka. "Comparative Analysis of Deep Learning Models for Real-World ISP Network Traffic Forecasting". arXiv preprint arXiv:2503.17410. [LINK](https://arxiv.org/abs/2503.17410)
 
 In 2024:
 
