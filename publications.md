@@ -12,10 +12,6 @@ In 2025:
 
 - Kamil Jeřábek, **Josef Koumar**, Jiří Setinský, and Jaroslav Pešek. "Explainable Anomaly Detection in Network Traffic Using LLM" - Presented at GAIN NOMS 2025.
 
-- Kamil Jerabek, Jan Luxemburk, Richard Plny, **Josef Koumar**, Jaroslav Pesek, and Karel Hynek. "When Simple Model Just Works: Is Network Traffic Classification in Crisis?". arXiv preprint arXiv:2506.08655. [LINK](https://arxiv.org/abs/2506.08655)
-
-- **Josef Koumar**, Timotej Smoleň., Kamil Jeřábek, and Tomáš Čejka. "Comparative Analysis of Deep Learning Models for Real-World ISP Network Traffic Forecasting". arXiv preprint arXiv:2503.17410. [LINK](https://arxiv.org/abs/2503.17410)
-
 In 2024:
 
 - Lukáš Jančička, Dominik Soukup, **Josef Koumar**, Filip Němec, and Tomáš Čejka. "MFWDD: Model-based Feature Weight Drift Detection Showcased on TLS and QUIC Traffic" - In 2024 20th International Conference on Network and Service Management (CNSM). [LINK](https://ieeexplore.ieee.org/abstract/document/10814630)
@@ -52,6 +48,8 @@ In 2022:
 
 ## Workshops, posters, etc
 
+- Kamil Jerabek, **Josef Koumar**, and Jaroslav Pesek, *Machine Learning in Network Service Classification*, In NOMS 2025-2025 IEEE Network Operations and Management Symposium. [LINK](https://noms2025.ieee-noms.org/program/tutorials)
+
 - Kamil Jerabek, **Josef Koumar**, Jaroslav Pesek, and Jiří Setinský, *Workshop on Anomaly Detection in Network Traffic Using Forecasting*, NECS – PhD Winter School, 2025, [LINK](https://necs-winterschool.disi.unitn.it/)
 
 - Kamil Jerabek, **Josef Koumar**, Daniel Poliakov, and Jaroslav Pesek, *Workshop on AI and and traffic classification*, NECS – PhD Winter School, 2024, [LINK](https://necs-winterschool.disi.unitn.it/)
@@ -59,6 +57,10 @@ In 2022:
 - **Josef Koumar** and Tomáš Čejka. "Detection and recognition of periodic communication in network traffic" 2022, [LINK](https://www.linkedin.com/in/josef-koumar/details/education/782487460/multiple-media-viewer/?profileId=ACoAADpBm3EB8pWoZzFHfYgg53NrNnwh1DkQSLo&treasuryMediaId=1635495494901)
 
 ## Preprints
+
+- Kamil Jerabek, Jan Luxemburk, Richard Plny, **Josef Koumar**, Jaroslav Pesek, and Karel Hynek. "When Simple Model Just Works: Is Network Traffic Classification in Crisis?". arXiv preprint arXiv:2506.08655. [LINK](https://arxiv.org/abs/2506.08655)
+
+- **Josef Koumar**, Timotej Smoleň., Kamil Jeřábek, and Tomáš Čejka. "Comparative Analysis of Deep Learning Models for Real-World ISP Network Traffic Forecasting". arXiv preprint arXiv:2503.17410. [LINK](https://arxiv.org/abs/2503.17410)
 
 - **Josef Koumar**, Karel Hynek, Tomáš Čejka and Pavel Šiška, "CESNET-TimeSeries24: Time Series Dataset for Network Traffic Anomaly Detection and Forecasting". [LINK](https://www.researchgate.net/publication/384447620_CESNET-TimeSeries24_Time_Series_Dataset_for_Network_Traffic_Anomaly_Detection_and_Forecasting)
 
