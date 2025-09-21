@@ -6,6 +6,12 @@ permalink: /publications/
 
 In 2025:
 
+- Milan Kureš, **Josef Koumar**, Karel Hynek „CESNET-TSZoo: A Library for Reproducible Benchmarking in Network Time Series Analysis“ – International Conference on Network and Service Management (CNSM) 2025
+
+- Dominik Oškera, **Josef Koumar**, Alžběta Pokorná, Kamil Jeřábek, Tomáš Čejka „Botnet detection using periodic behavior detection in network traffic“ – International Conference on Network and Service Management (CNSM) 2025
+
+- Matej Hulák, Václav Bartoš, **Josef Koumar**, Tomáš Čejka „DAF: Device Annotation Framework for Network Traffic Monitoring“ – International Conference on Network and Service Management (CNSM) 2025
+
 - **Josef Koumar**, Karel Hynek, Tomáš Čejka, and Pavel Šiška. "CESNET-TimeSeries24: Time Series Dataset for Network Traffic Anomaly Detection and Forecasting". Scientific Data 12.1 (2025): 338. [LINK](https://www.nature.com/articles/s41597-025-04603-x)
 
 - **Josef Koumar**, Jaroslav Pešek, Kamil Jeřábek, and Tomáš Čejka. "Towards Building Network Outlier Detection System for Network Traffic Monitoring" - Presented at NOMS 2025.
@@ -35,6 +41,8 @@ In 2022:
 - **Josef Koumar**, and Tomáš Čejka. "Network traffic classification based on periodic behavior detection." 2022 18th International Conference on Network and Service Management (CNSM). IEEE, 2022. [LINK](https://ieeexplore.ieee.org/abstract/document/9964556?casa_token=bS2bXYP2LnUAAAAA:qBI9-SzT-RuzX0po_VoqzebCjMD2ydDLMoG581Mws6WWk0yqWvC5Sjr8vpji4rU7YSrDG2Em)
 
 ## Datasets
+
+- Dominik Oškera, **Josef Koumar**, Alžběta Pokorná, Kamil Jeřábek, Tomáš Čejka. "" [LINK](https://zenodo.org/records/16752462), [LINK](https://zenodo.org/records/16753981), [LINK](https://zenodo.org/records/16753890)
 
 - **Josef Koumar**, Karel Hynek, Tomáš Čejka, and Pavel Šiška. "CESNET-TimeSeries24: Time Series Dataset for Network Traffic Anomaly Detection and Forecasting" [LINK](https://zenodo.org/records/13382427)
 

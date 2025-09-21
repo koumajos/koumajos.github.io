@@ -9,6 +9,10 @@ permalink: /education/
   - Dissertation thesis theme: Threat Detection in Network Traffic using Time Series Analysis
   - 2022 - now
 
+- Budapest University of Technology and Economics (BME)
+  - PhD internship
+  - 22.9.2025---24.10.2025
+
 - Universita di Trento
   - NECS PhD Winter School 2024
   - Jan 2024
