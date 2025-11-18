@@ -14,9 +14,9 @@ In 2025:
 
 - **Josef Koumar**, Karel Hynek, Tomáš Čejka, and Pavel Šiška. "CESNET-TimeSeries24: Time Series Dataset for Network Traffic Anomaly Detection and Forecasting". Scientific Data 12.1 (2025): 338. [LINK](https://www.nature.com/articles/s41597-025-04603-x)
 
-- **Josef Koumar**, Jaroslav Pešek, Kamil Jeřábek, and Tomáš Čejka. "Towards Building Network Outlier Detection System for Network Traffic Monitoring" - Presented at NOMS 2025.
+- **Josef Koumar**, Jaroslav Pešek, Kamil Jeřábek, and Tomáš Čejka. "Towards building network outlier detection system for network traffic monitoring." In NOMS 2025-2025 IEEE Network Operations and Management Symposium, pp. 1-6. IEEE, 2025. [LINK](https://ieeexplore.ieee.org/abstract/document/11073727)
 
-- Kamil Jeřábek, **Josef Koumar**, Jiří Setinský, and Jaroslav Pešek. "Explainable Anomaly Detection in Network Traffic Using LLM" - Presented at GAIN NOMS 2025.
+- Kamil Jeřábek, **Josef Koumar**, Jiří Setinský, and Jaroslav Pešek."Explainable Anomaly Detection in Network Traffic Using LLM." In NOMS 2025-2025 IEEE Network Operations and Management Symposium, pp. 1-6. IEEE, 2025. [LINK](https://ieeexplore.ieee.org/abstract/document/11073574)
 
 In 2024:
 
@@ -42,7 +42,7 @@ In 2022:
 
 ## Datasets
 
-- Dominik Oškera, **Josef Koumar**, Alžběta Pokorná, Kamil Jeřábek, Tomáš Čejka. "" [LINK](https://zenodo.org/records/16752462), [LINK](https://zenodo.org/records/16753981), [LINK](https://zenodo.org/records/16753890)
+- Dominik Oškera, **Josef Koumar**, Alžběta Pokorná, Kamil Jeřábek, Tomáš Čejka. "CESNET-CC25: " [LINK](https://zenodo.org/records/16752462), [LINK](https://zenodo.org/records/16753981), [LINK](https://zenodo.org/records/16753890)
 
 - **Josef Koumar**, Karel Hynek, Tomáš Čejka, and Pavel Šiška. "CESNET-TimeSeries24: Time Series Dataset for Network Traffic Anomaly Detection and Forecasting" [LINK](https://zenodo.org/records/13382427)
 

@@ -14,6 +14,10 @@ permalink: /education/
   - 22.9.2025---24.10.2025
 
 - Universita di Trento
+  - NECS PhD Winter School 2025
+  - Jan 2025
+
+- Universita di Trento
   - NECS PhD Winter School 2024
   - Jan 2024
 

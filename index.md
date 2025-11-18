@@ -10,10 +10,10 @@ I am Josef, a PhD candidate in the [Netmon](https://netmon.fit.cvut.cz) research
 
 ## Working as
 
-- Researcher at [Network Traffic Monitoring Lab (Netmon)](https://netmon.fit.cvut.cz/en)
-- Academic staff member at [Digital Design Department](https://ddd.fit.cvut.cz) at [FIT CTU](https://fit.cvut.cz)
+- Researcher and laboratory administrator at [Network Traffic Monitoring Lab (Netmon)](https://netmon.fit.cvut.cz/en)
+- Assistant professor at [Digital Design Department](https://ddd.fit.cvut.cz) at [FIT CTU](https://fit.cvut.cz)
 - President of IEEE Student Branch for CTU, Czechoslovakia Section
-- Senator in the Academic SenateSenator in the Academic Senate at [Faculty of Information Technology CTU in Prague](https://fit.cvut.cz)
+- Senator in the Academic Senate at [Faculty of Information Technology CTU in Prague](https://fit.cvut.cz)
 
 ## What I am working on right now
 
