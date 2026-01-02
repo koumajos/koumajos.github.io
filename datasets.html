@@ -58,6 +58,10 @@
             </li>
 
             <li class="filter-item">
+              <a href="preprints.html"><button data-filter-btn>Preprints</button></a>
+            </li>
+
+            <li class="filter-item">
               <a href="datasets.html"><button class="active" data-filter-btn>Datasets</button></a>
             </li>
 
@@ -67,64 +71,9 @@
 
           </ul>
 
-          <ul class="project-list">
-
-            <!-- Datasets -->
-            <li class="project-item active" data-filter-item data-category="datasets">
-              <a href="https://zenodo.org/records/16752462" target="_blank">
-                <div class="project-content">
-                  <h3 class="project-title">CESNET-CC25: Botnet Dataset</h3>
-                  <p class="project-category">Zenodo, 2025</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="datasets">
-              <a href="https://zenodo.org/records/13382427" target="_blank">
-                <div class="project-content">
-                  <h3 class="project-title">CESNET-TimeSeries24: Time Series Dataset for Network Traffic Anomaly Detection and Forecasting</h3>
-                  <p class="project-category">Zenodo, 2024</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="datasets">
-              <a href="https://zenodo.org/records/8301043" target="_blank">
-                <div class="project-content">
-                  <h3 class="project-title">Network traffic datasets with novel extended IP flow called NetTiSA flow</h3>
-                  <p class="project-category">Zenodo, 2023</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="datasets">
-              <a href="https://zenodo.org/records/8035724" target="_blank">
-                <div class="project-content">
-                  <h3 class="project-title">Network traffic datasets created by Single Flow Time Series Analysis</h3>
-                  <p class="project-category">Zenodo, 2023</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="datasets">
-              <a href="https://zenodo.org/records/8033351" target="_blank">
-                <div class="project-content">
-                  <h3 class="project-title">CESNET-MINER22-TS: Periodic Behavior Features of Cryptomining Communication</h3>
-                  <p class="project-category">Zenodo, 2022</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="datasets">
-              <a href="https://zenodo.org/records/7923745" target="_blank">
-                <div class="project-content">
-                  <h3 class="project-title">CESNET-USTS23: a benchmark dataset of Unevenly spaced time series from network traffic</h3>
-                  <p class="project-category">Zenodo, 2023</p>
-                </div>
-              </a>
-            </li>
-
-          </ul>
+          <div id="datasets-container">
+            <!-- Datasets will be loaded here by datasets.js -->
+          </div>
 
         </section>
 
@@ -135,6 +84,7 @@
   </main>
 
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/datasets.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
