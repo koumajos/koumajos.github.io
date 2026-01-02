@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Josef Koumar</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/custom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./pictures/pic.jpg" alt="Josef Koumar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Josef Koumar">Josef Koumar</h1>
+          <p class="title">PhD Candidate & Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:koumajos@fit.cvut.cz" class="contact-link">koumajos@fit.cvut.cz</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Prague, Czech Republic</address>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Institution</p>
+              <address>FIT CTU in Prague</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/koumajos" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/josef-koumar/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=YOUR_ID" class="social-link" target="_blank">
+              <ion-icon name="school-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <div class="main-content">
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link active">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="resume.html" class="navbar-link">Resume</a>
+          </li>
+          <li class="navbar-item">
+            <a href="academia.html" class="navbar-link">Academia</a>
+          </li>
+          <li class="navbar-item">
+            <a href="publications.html" class="navbar-link">Publications</a>
+          </li>
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link">Blog</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am Josef, a PhD candidate in the <a href="https://netmon.fit.cvut.cz" target="_blank">Netmon</a> research group at FIT CTU in Prague. 
+            We work in the field of network traffic monitoring and analysis. Right now, I am primarily interested in network traffic 
+            monitoring and classification using time series analysis, statistics in the field of computer networks, and the application 
+            of machine learning in the same field.
+          </p>
+
+          <p>
+            I also teach Computer Networks and Computer Networks Technologies for undergrads, and I am the lector of Basic Python and 
+            Data Science courses at FEL CTU. Additionally, I serve as the President of IEEE Student Branch for CTU, Czechoslovakia Section, 
+            and as a Senator in the Academic Senate at Faculty of Information Technology CTU in Prague.
+          </p>
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm working on</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="research icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Network Traffic Forecasting</h4>
+                <p class="service-item-text">
+                  Developing advanced time series models for predicting network traffic patterns in ISP networks.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="anomaly detection icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Anomaly Detection</h4>
+                <p class="service-item-text">
+                  Using time series analysis and machine learning to detect network anomalies in ISP networks.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="clustering icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Traffic Clustering</h4>
+                <p class="service-item-text">
+                  Clustering and classification of network traffic time series for better understanding of network behavior.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="teaching icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Teaching & Mentoring</h4>
+                <p class="service-item-text">
+                  Educating students in computer networks, Python programming, and data science at CTU in Prague.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Current Roles</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Researcher & Lab Administrator</h4>
+                <p class="service-item-text">
+                  Network Traffic Monitoring Lab (Netmon) at FIT CTU
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Assistant Professor</h4>
+                <p class="service-item-text">
+                  Digital Design Department at FIT CTU
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IEEE Student Branch President</h4>
+                <p class="service-item-text">
+                  CTU, Czechoslovakia Section
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Academic Senate Senator</h4>
+                <p class="service-item-text">
+                  Faculty of Information Technology CTU in Prague
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

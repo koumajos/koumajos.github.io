@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshops - Josef Koumar</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/custom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./pictures/pic.jpg" alt="Josef Koumar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Josef Koumar">Josef Koumar</h1>
+          <p class="title">PhD Candidate & Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:koumajos@fit.cvut.cz" class="contact-link">koumajos@fit.cvut.cz</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Prague, Czech Republic</address>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Institution</p>
+              <address>FIT CTU in Prague</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/koumajos" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/josef-koumar/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=YOUR_ID" class="social-link" target="_blank">
+              <ion-icon name="school-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <div class="main-content">
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="resume.html" class="navbar-link">Resume</a>
+          </li>
+          <li class="navbar-item">
+            <a href="academia.html" class="navbar-link">Academia</a>
+          </li>
+          <li class="navbar-item">
+            <a href="publications.html" class="navbar-link active">Publications</a>
+          </li>
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link">Blog</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="portfolio active" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <a href="papers.html"><button data-filter-btn>Papers</button></a>
+            </li>
+
+            <li class="filter-item">
+              <a href="datasets.html"><button data-filter-btn>Datasets</button></a>
+            </li>
+
+            <li class="filter-item">
+              <a href="workshops.html"><button class="active" data-filter-btn>Workshops</button></a>
+            </li>
+
+          </ul>
+
+          <ul class="project-list">
+
+            <!-- Workshops -->
+            <li class="project-item active" data-filter-item data-category="workshops">
+              <a href="https://noms2025.ieee-noms.org/program/tutorials" target="_blank">
+                <div class="project-content">
+                  <h3 class="project-title">Machine Learning in Network Service Classification (Tutorial)</h3>
+                  <p class="project-category">NOMS 2025</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="workshops">
+              <a href="https://necs-winterschool.disi.unitn.it/" target="_blank">
+                <div class="project-content">
+                  <h3 class="project-title">Workshop on Anomaly Detection in Network Traffic Using Forecasting</h3>
+                  <p class="project-category">NECS PhD Winter School, 2025</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="workshops">
+              <a href="https://necs-winterschool.disi.unitn.it/" target="_blank">
+                <div class="project-content">
+                  <h3 class="project-title">Workshop on AI and traffic classification</h3>
+                  <p class="project-category">NECS PhD Winter School, 2024</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="workshops">
+              <a href="https://www.linkedin.com/in/josef-koumar/details/education/782487460/multiple-media-viewer/" target="_blank">
+                <div class="project-content">
+                  <h3 class="project-title">Detection and recognition of periodic communication in network traffic (Poster)</h3>
+                  <p class="project-category">2022</p>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
