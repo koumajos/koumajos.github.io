@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="contact-info">
               <p class="contact-title">Google Scholar</p>
-              <a href="https://scholar.google.com/citations?user=YOUR_ID" class="contact-link" target="_blank">Profile</a>
+              <a href="https://scholar.google.com/citations?user=J-mjgOEAAAAJ&hl=cs&oi=ao" class="contact-link" target="_blank">Profile</a>
             </div>
           </li>
 
