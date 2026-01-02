@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         <div class="info-content">
           <h1 class="name" title="Josef Koumar">Josef Koumar</h1>
-          <p class="title">PhD Candidate & Researcher</p>
+          <p class="title">Network Security Researcher</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -41,11 +41,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
           <li class="contact-item">
             <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
+              <ion-icon name="logo-linkedin"></ion-icon>
             </div>
             <div class="contact-info">
-              <p class="contact-title">Location</p>
-              <address>Prague, Czech Republic</address>
+              <p class="contact-title">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/josef-koumar/" class="contact-link" target="_blank">Josef Koumar</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Google Scholar</p>
+              <a href="https://scholar.google.com/citations?user=YOUR_ID" class="contact-link" target="_blank">Profile</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+              <a href="https://github.com/koumajos" class="contact-link" target="_blank">koumajos</a>
             </div>
           </li>
 
@@ -59,28 +79,14 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
           </li>
 
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/koumajos" class="social-link" target="_blank">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/josef-koumar/" class="social-link" target="_blank">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://scholar.google.com/citations?user=YOUR_ID" class="social-link" target="_blank">
-              <ion-icon name="school-outline"></ion-icon>
-            </a>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Prague, Czech Republic</address>
+            </div>
           </li>
 
         </ul>

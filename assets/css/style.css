@@ -544,6 +544,13 @@ main {
 
 .service-icon-box img { margin: auto; }
 
+.service-icon-box ion-icon {
+  font-size: 40px;
+  color: var(--orange-yellow-crayola);
+  margin: auto;
+  display: block;
+}
+
 .service-content-box { text-align: center; }
 
 .service-item-title { margin-bottom: 7px; }
@@ -1826,11 +1833,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar {
     position: sticky;
     top: 60px;
-    max-height: max-content;
+    max-height: calc(100vh - 80px);
     height: 100%;
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .sidebar-info { flex-direction: column; }
