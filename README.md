@@ -1,38 +1,62 @@
-# Josef Koumar - Personal Portfolio Website
+# koumajos.github.io
 
-This is my personal portfolio website built using the vCard template, customized for showcasing my research work, publications, and blog posts.
+Personal academic website of **Josef Koumar** — network security researcher working on
+time series analysis of network traffic.
 
-## Features
-
-- **About Section**: Introduction and current research interests
-- **Resume**: Education, experience, and skills
-- **Publications**: Filterable list of academic publications by year
-- **Blog**: Recent blog posts about research and conferences
-- **Contact**: Contact information and location map
-
-## Template
-
-Based on [vCard Personal Portfolio](https://github.com/codewithsadee/vcard-personal-portfolio) template.
+Live at <https://koumajos.github.io>.
 
 ## Structure
 
-- `index.html` - Main website file
-- `assets/` - CSS, JavaScript, and images
-  - `css/style.css` - Main template styles
-  - `css/custom.css` - Custom styles for portfolio
-  - `js/script.js` - Interactive features
-- `pictures/` - Personal images
-- `_posts/` - Blog posts in Markdown format
+```
+index.html            Home — bio, metrics, research areas, selected papers, news
+publications.html     Full publication list (filterable), open datasets, software
+teaching.html         Courses, tutorials, academic service, work with students
+cv.html               Curriculum vitae — experience, education, funded projects
+404.html              Not-found page
+about|resume|academia|papers|preprints|datasets|workshops.html
+                      Redirect stubs kept so old links do not break
 
-## Deployment
+assets/css/main.css   Design system: tokens, layout, components, light/dark theme
+assets/js/data.js     Publications, datasets and software — the content source
+assets/js/publications.js  Renders publication lists and filters
+assets/js/site.js     Theme toggle, mobile navigation, print
+assets/img/           Portrait and favicon
 
-This site is deployed on GitHub Pages at `koumajos.github.io`.
+publications.bib      BibTeX of all publications (offered for download on the site)
+datasets.bib          BibTeX of published datasets
+preprints.bib         BibTeX of preprints
+pictures/             Personal photo archive
+```
 
-## Local Development
+## Updating content
 
-Simply open `index.html` in a web browser to view locally.
+**Adding a publication** — append an entry to `PUBLICATIONS` in `assets/js/data.js`
+and add the matching BibTeX record to `publications.bib`. Entry fields:
+
+| Field | Meaning |
+| --- | --- |
+| `type` | `journal`, `conference`, `preprint` or `thesis` — drives the filter chips |
+| `short` | Badge text, e.g. `CNSM 2025` |
+| `quartile` | Optional, e.g. `Q1` |
+| `doi`, `url`, `code`, `data` | Optional links rendered under the entry |
+| `citations` | Citation count shown as a badge |
+| `featured` | `true` puts the paper in *Selected publications* on the home page |
+| `abstract` | Optional, shown behind the *Abstract* toggle |
+
+**Citation metrics** are hard-coded in `index.html` and `cv.html`; refresh them from
+Google Scholar when they drift.
+
+**Datasets and software** live in the `DATASETS` and `SOFTWARE` arrays of the same file.
+
+## Local preview
+
+No build step — plain HTML, CSS and JavaScript.
+
+```sh
+python3 -m http.server 8000
+# open http://localhost:8000
+```
 
 ## License
 
-Template: MIT License
-Content: © 2025 Josef Koumar
+Code: MIT (see `LICENSE`). Content: © Josef Koumar.

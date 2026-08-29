@@ -1,0 +1,6 @@
+.DS_Store
+*.swp
+
+# Personal CV source — contains a home address and phone number,
+# keep it out of the published site.
+02_Zivotopis_Koumar.pdf
