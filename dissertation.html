@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dissertation — Josef Koumar</title>
+  <meta name="description" content="Threat Detection in Network Traffic using Time Series Analysis — Josef Koumar's doctoral dissertation at FIT CTU in Prague, defended 7 October 2026. Full text, defence slides and reviewers' reports.">
+  <link rel="canonical" href="https://koumajos.github.io/dissertation.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Threat Detection in Network Traffic using Time Series Analysis — doctoral dissertation">
+  <meta property="og:description" content="Doctoral dissertation of Josef Koumar, FIT CTU in Prague, defended 7 October 2026. Full text, defence slides and reviewers' reports.">
+  <meta property="og:url" content="https://koumajos.github.io/dissertation.html">
+  <meta property="og:image" content="https://koumajos.github.io/assets/img/defence-slide.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <script>
+    try {
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  </script>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">JK</span>Josef Koumar</a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="dissertation.html" aria-current="page">Dissertation</a>
+        <a href="teaching.html">Teaching &amp; Service</a>
+        <a href="cv.html">CV</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn theme-toggle" data-theme-toggle type="button" aria-label="Switch colour theme">
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M6.3 17.7l-1.4 1.4M19.1 4.9l-1.4 1.4"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" data-nav-toggle type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-head">
+      <div class="wrap">
+        <p class="eyebrow">Doctoral dissertation · defended 7 October 2026</p>
+        <h1>Threat Detection in Network Traffic using Time Series Analysis</h1>
+        <p class="lede">
+          Dissertation thesis submitted to the Faculty of Information Technology, Czech Technical University
+          in Prague, in the doctoral study programme Informatics. Supervised by Assoc. Prof. Tomáš Čejka, Ph.D.,
+          Department of Digital Design.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="./dissertation/Koumar-dissertation-2026.pdf">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8M16 17H8M10 9H8"/></svg>
+            Full text (PDF, 24 MB)
+          </a>
+          <a class="btn" href="./dissertation/Koumar-defence-slides-2026.pdf">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            Defence slides (PDF)
+          </a>
+          <a class="btn" href="#reviews">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            Reviewers' reports
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================== abstract -->
+    <section class="section">
+      <div class="wrap two-col">
+        <div>
+          <div class="section-head"><h2>Abstract</h2></div>
+          <p>
+            This dissertation thesis deals with the advancement of network threat detection methodologies
+            through the application of systematic time series analysis. As modern network security faces
+            a critical visibility gap due to the near-universal adoption of encryption, traditional
+            payload-based inspection has become largely ineffective. This research addresses this challenge
+            by defining a taxonomy for network-derived time series to model behavioral and temporal
+            dependencies inherent in encrypted traffic. By treating network metadata as temporal signals,
+            the dissertation thesis develops novel detection mechanisms for identifying malicious activity,
+            ranging from botnet Command and Control (C&amp;C) channels to sophisticated data exfiltration and
+            Distributed Denial of Service (DDoS) attacks, without requiring access to unencrypted payloads.
+          </p>
+
+          <div class="section-head" style="margin-top:36px"><h2>Main contributions</h2></div>
+          <ol class="contributions">
+            <li>Formalization of a taxonomy for network time series that enables the granular analysis of
+              temporal patterns for precise threat characterization.</li>
+            <li>Development of threat detection methodologies for encrypted traffic by analyzing the
+              Single flow time series.</li>
+            <li>Design of specialized periodicity mining algorithms for Flow time series to expose automated
+              heartbeat patterns and periodic behaviors characteristic of malware and botnet communications.</li>
+            <li>Application of unsupervised forecasting-based methods for outlier detection, targeting
+              network intrusions that deviate from established historical traffic baselines.</li>
+            <li>Proposed integration of Large Language Models (LLM) to automate the explanation of detected
+              anomalies to get insights for human analysts.</li>
+          </ol>
+
+          <p class="footer-note" style="margin-top:20px">
+            Keywords: threat detection, network security, encrypted traffic analysis, anomaly detection,
+            time series, time series analysis, network monitoring.
+          </p>
+        </div>
+
+        <div>
+          <a class="doc-cover" style="display:block" href="./dissertation/Koumar-defence-slides-2026.pdf" aria-label="Open the defence slides (PDF)">
+            <figure>
+              <img src="./assets/img/defence-slide.jpg" alt="Title slide of the dissertation defence: Threat Detection in Network Traffic using Time Series Analysis, Josef Koumar, 7 October 2026" width="1440" height="810">
+              <figcaption>Defence slides · 40 pages · 7 October 2026</figcaption>
+            </figure>
+          </a>
+
+          <div class="callout" style="margin-top:20px">
+            <ul class="kv">
+              <li><span>Author</span><span>Ing. Josef Koumar</span></li>
+              <li><span>Supervisor</span><span>Assoc. Prof. Tomáš Čejka, Ph.D.</span></li>
+              <li><span>Institution</span><span>Faculty of Information Technology, Czech Technical University in Prague</span></li>
+              <li><span>Department</span><span>Department of Digital Design</span></li>
+              <li><span>Programme</span><span>Informatics (doctoral), 2022 — 2026</span></li>
+              <li><span>Submitted</span><span>January 2026</span></li>
+              <li><span>Defended</span><span>7 October 2026</span></li>
+              <li><span>Extent</span><span>156 pages, 7 chapters</span></li>
+              <li><span>Papers</span><span>Built on 9 peer-reviewed papers (TMA, CNSM, NOMS, <em>Computer Networks</em>, <em>Nature Scientific Data</em>) — see <a href="publications.html">publications</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================= structure -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head"><h2>Structure of the thesis</h2></div>
+        <p class="lede" style="margin-bottom:28px; max-width:62ch">
+          The work is organised around three types of time series derived from network traffic, each
+          with its own detection methods and deployment tier.
+        </p>
+
+        <ul class="cards">
+          <li class="card">
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </span>
+            <h3>Single flow time series</h3>
+            <p>
+              Time series features computed inside the flow exporter — the NetTiSA flow — for encrypted
+              traffic classification at line rate with a 113-byte flow record. In production in the
+              CESNET2 network.
+            </p>
+          </li>
+          <li class="card">
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h4l2 6 4-14 2 8h6"/></svg>
+            </span>
+            <h3>Flow time series</h3>
+            <p>
+              Periodicity mining with the Lomb-Scargle periodogram over unevenly spaced flow series, applied
+              to traffic classification, cryptomining detection and botnet command-and-control detection.
+            </p>
+          </li>
+          <li class="card">
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 14 3-4 3 3 5-7"/></svg>
+            </span>
+            <h3>Aggregated time series</h3>
+            <p>
+              The CESNET-TimeSeries24 dataset, SARIMA forecasting, the NODS outlier detection system deployed
+              in the CESNET3 network, and LLM-based explanation of detected anomalies for analysts.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========================================================= reviews -->
+    <section class="section" id="reviews">
+      <div class="wrap">
+        <div class="section-head"><h2>Reviewers' reports</h2></div>
+        <p class="lede" style="margin-bottom:28px; max-width:62ch">
+          Three independent reviewers assessed the dissertation before the defence. All three recommended
+          it for defence; their full reports are available below.
+        </p>
+
+        <ul class="cards">
+          <li class="card">
+            <div class="tags"><span class="tag">Reviewer</span><span class="tag tag-cite">10 May 2026</span></div>
+            <h3>Prof. Ramin Sadre</h3>
+            <p>Université catholique de Louvain (UCLouvain), Belgium</p>
+            <blockquote class="quote">
+              <p>“This dissertation presents a coherent body of research that makes meaningful advances in
+              network threat detection. The contributions are technically sound, practically oriented, and
+              supported by experimental evaluation on real-world datasets.”</p>
+            </blockquote>
+            <div class="pub-links">
+              <a href="./dissertation/review-sadre.pdf">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+                Full report (PDF)
+              </a>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="tags"><span class="tag">Reviewer</span><span class="tag tag-cite">31 May 2026</span></div>
+            <h3>Dr. Pál Varga</h3>
+            <p>Department of Telecommunications and Artificial Intelligence, Budapest University of Technology and Economics, Hungary</p>
+            <blockquote class="quote">
+              <p>“In my judgment, it meets the standard expected of doctoral work and, in several respects,
+              exceeds it through its openness, practical validation, and clear relevance to encrypted-traffic
+              security monitoring.”</p>
+            </blockquote>
+            <div class="pub-links">
+              <a href="./dissertation/review-varga.pdf">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+                Full report (PDF)
+              </a>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="tags"><span class="tag">Reviewer</span><span class="tag tag-cite">12 June 2026</span></div>
+            <h3>Dr. Roberto Magán Carrión</h3>
+            <p>Associate Professor, University of Granada, Spain</p>
+            <blockquote class="quote">
+              <p>“This dissertation is a top-tier academic work that successfully bridges mathematical
+              time-series theory with the pragmatic engineering requirements of high-speed network
+              security.”</p>
+            </blockquote>
+            <div class="pub-links">
+              <a href="./dissertation/review-magan-carrion.pdf">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+                Full report (PDF)
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================ cite -->
+    <section class="section">
+      <div class="wrap section-narrow">
+        <div class="section-head"><h2>How to cite</h2></div>
+        <div class="callout">
+          Koumar, J. <em>Threat Detection in Network Traffic using Time Series Analysis</em>. Doctoral
+          dissertation, Faculty of Information Technology, Czech Technical University in Prague, 2026.
+          Supervisor: Tomáš Čejka.
+        </div>
+        <p class="footer-note" style="margin-top:12px">
+          A BibTeX record is included in the <a href="./publications.bib" download>publication list</a>.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-note">
+          &copy; <span data-year>2026</span> Josef Koumar · Prague, Czech Republic<br>
+          <a href="mailto:josef.koumar@fit.cvut.cz">josef.koumar@fit.cvut.cz</a>
+        </p>
+      </div>
+      <div class="social">
+        <a href="https://scholar.google.com/citations?user=J-mjgOEAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>
+        </a>
+        <a href="https://www.researchgate.net/profile/Josef-Koumar" target="_blank" rel="noopener" aria-label="ResearchGate" title="ResearchGate">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V4h5a3 3 0 0 1 0 6H4"/><path d="m10 10 6 10"/><circle cx="18" cy="6" r="2.5"/></svg>
+        </a>
+        <a href="https://github.com/koumajos" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2 0-.4-.5-1.6.2-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.7 4.7 18.7 5 18.7 5c.7 1.6.2 2.8.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/josef-koumar/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.76-2.05C20.5 8.65 21 11 21 14.1V21h-4v-6.1c0-1.45-.03-3.3-2-3.3-2 0-2.3 1.57-2.3 3.2V21H9z"/></svg>
+        </a>
+        <a href="mailto:josef.koumar@fit.cvut.cz" aria-label="Email" title="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Thesis",
+    "name": "Threat Detection in Network Traffic using Time Series Analysis",
+    "author": { "@type": "Person", "name": "Josef Koumar", "url": "https://koumajos.github.io/" },
+    "contributor": { "@type": "Person", "name": "Tomáš Čejka", "roleName": "Supervisor" },
+    "sourceOrganization": { "@type": "CollegeOrUniversity", "name": "Faculty of Information Technology, Czech Technical University in Prague" },
+    "inSupportOf": "Ph.D. in Informatics",
+    "datePublished": "2026-10-07",
+    "inLanguage": "en",
+    "url": "https://koumajos.github.io/dissertation.html",
+    "encoding": { "@type": "MediaObject", "contentUrl": "https://koumajos.github.io/dissertation/Koumar-dissertation-2026.pdf", "encodingFormat": "application/pdf" }
+  }
+  </script>
+
+  <script src="./assets/js/site.js"></script>
+
+</body>
+
+</html>

@@ -178,7 +178,7 @@
         '<li><a class="card card-link" href="' + esc(d.url) + '" target="_blank" rel="noopener">' +
           '<h3>' + esc(d.title) + '</h3>' +
           '<p>' + esc(d.text) + '</p>' +
-          '<div class="card-meta"><span>Zenodo · ' + d.year + '</span><span>Open access</span></div>' +
+          '<div class="card-meta"><span>' + esc(d.source || 'Zenodo') + ' · ' + d.year + '</span><span>Open access</span></div>' +
         '</a></li>'
       );
     }).join('');

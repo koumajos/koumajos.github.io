@@ -10,6 +10,7 @@ Live at <https://koumajos.github.io>.
 ```
 index.html            Home — bio, metrics, research areas, selected papers, news
 publications.html     Full publication list (filterable), open datasets, software
+dissertation.html     Doctoral dissertation — abstract, full text, defence slides, reviewers' reports
 teaching.html         Courses, tutorials, academic service, work with students
 cv.html               Curriculum vitae — experience, education, funded projects
 404.html              Not-found page
@@ -20,7 +21,9 @@ assets/css/main.css   Design system: tokens, layout, components, light/dark them
 assets/js/data.js     Publications, datasets and software — the content source
 assets/js/publications.js  Renders publication lists and filters
 assets/js/site.js     Theme toggle, mobile navigation, print
-assets/img/           Portrait and favicon
+assets/img/           Portrait, favicon, defence title slide
+
+dissertation/         Dissertation full text, defence slides and the three reviewers' reports (PDF)
 
 publications.bib      BibTeX of all publications (offered for download on the site)
 datasets.bib          BibTeX of published datasets
@@ -35,7 +38,7 @@ and add the matching BibTeX record to `publications.bib`. Entry fields:
 
 | Field | Meaning |
 | --- | --- |
-| `type` | `journal`, `conference`, `preprint` or `thesis` — drives the filter chips |
+| `type` | `journal`, `conference`, `preprint` or `thesis` — drives the filter chips (the Preprints chip is currently removed from `publications.html`; add it back when a preprint exists) |
 | `short` | Badge text, e.g. `CNSM 2025` |
 | `quartile` | Optional, e.g. `Q1` |
 | `doi`, `url`, `code`, `data` | Optional links rendered under the entry |
@@ -47,6 +50,7 @@ and add the matching BibTeX record to `publications.bib`. Entry fields:
 Google Scholar when they drift.
 
 **Datasets and software** live in the `DATASETS` and `SOFTWARE` arrays of the same file.
+A dataset entry defaults to Zenodo; set `source: 'GitHub'` for one hosted elsewhere.
 
 ## Local preview
 

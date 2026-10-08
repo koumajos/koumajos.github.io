@@ -1,11 +1,11 @@
 /* Site data — single source of truth for publications, datasets and software.
-   Citation counts reflect Google Scholar as of August 2026. */
+   Citation counts reflect Google Scholar as of October 2026. */
 
 'use strict';
 
 const SITE = {
   name: 'Josef Koumar',
-  title: 'Ing. Josef Koumar',
+  title: 'Ing. Josef Koumar, Ph.D.',
   role: 'Network Security Researcher',
   scholar: 'https://scholar.google.com/citations?user=J-mjgOEAAAAJ&hl=en',
   researchgate: 'https://www.researchgate.net/profile/Josef-Koumar',
@@ -13,12 +13,12 @@ const SITE = {
   linkedin: 'https://www.linkedin.com/in/josef-koumar/',
   email: 'josef.koumar@fit.cvut.cz',
   metrics: {
-    publications: 17,
-    citations: 187,
-    hIndex: 6,
+    publications: 18,
+    citations: 221,
+    hIndex: 8,
     i10Index: 4,
-    datasets: 7,
-    updated: 'August 2026'
+    datasets: 10,
+    updated: 'October 2026'
   }
 };
 
@@ -50,7 +50,8 @@ const PUBLICATIONS = [
     authors: ['Josef Koumar'],
     venue: 'Doctoral dissertation, Faculty of Information Technology, Czech Technical University in Prague',
     short: 'PhD thesis',
-    note: 'Submitted January 2026, defence expected October 2026',
+    note: 'Supervisor Tomáš Čejka · defended 7 October 2026',
+    url: 'dissertation.html',
     citations: 1
   },
   {
@@ -65,7 +66,7 @@ const PUBLICATIONS = [
     doi: '10.1109/TNSM.2025.3636557',
     url: 'https://ieeexplore.ieee.org/document/11268324',
     code: 'https://github.com/koumajos/isp-forecasting-benchmark',
-    citations: 5,
+    citations: 8,
     abstract: 'Accurate network traffic forecasting is crucial for Internet service providers to optimize resources, improve user experience, and detect anomalies. Until recently, the lack of large-scale, real-world datasets limited the fair evaluation of forecasting methods. The newly released CESNET-TimeSeries24 dataset addresses this gap by providing multivariate traffic data from thousands of devices over 40 weeks at multiple aggregation granularities and hierarchy levels. In this study, we leverage the CESNET-TimeSeries24 dataset to conduct a systematic evaluation of state-of-the-art deep learning models and provide practical insights. Moreover, our analysis reveals trade-offs between prediction accuracy and computational efficiency across different levels of granularity. Beyond model comparison, we establish a transparent and reproducible benchmarking framework, releasing source code and experiments to encourage standardized evaluation and accelerate progress in network traffic forecasting research.'
   },
   {
@@ -80,7 +81,7 @@ const PUBLICATIONS = [
     doi: '10.1038/s41597-025-04603-x',
     url: 'https://www.nature.com/articles/s41597-025-04603-x',
     data: 'https://zenodo.org/records/13382427',
-    citations: 50,
+    citations: 60,
     featured: true,
     abstract: 'Anomaly detection in network traffic is crucial for maintaining the security of computer networks and identifying malicious activities. Most approaches to anomaly detection use methods based on forecasting. Extensive real-world network datasets for forecasting and anomaly detection techniques are missing, potentially causing overestimation of anomaly detection algorithm performance and fabricating the illusion of progress. This manuscript tackles this issue by introducing a comprehensive dataset derived from 40 weeks of traffic transmitted by 275,000 active IP addresses in the CESNET3 network — an ISP network serving approximately half a million customers daily. It captures the behavior of diverse network entities, reflecting the variability typical of an ISP environment. This variability provides a realistic and challenging environment for developing forecasting and anomaly detection models, enabling evaluations that are closer to real-world deployment scenarios.'
   },
@@ -94,7 +95,7 @@ const PUBLICATIONS = [
     doi: '10.23919/CNSM67658.2025.11297465',
     url: 'https://ieeexplore.ieee.org/document/11297465',
     data: 'https://zenodo.org/records/16752462',
-    citations: 0,
+    citations: 2,
     abstract: 'Detecting botnet Command-and-Control (C&C) communication in encrypted network traffic is a persistent challenge in cybersecurity, particularly in environments without endpoint visibility. We present a novel approach for botnet detection based on the inherent periodic communication patterns of C&C channels. Leveraging the Lomb-Scargle periodogram, we identify periodic behaviour in multiflow time series and extract periodic-based features for classification using machine learning. To address limitations in existing datasets, we introduce CESNET-CC25, a comprehensive and publicly available dataset comprising real-world botnet C&C traffic and benign traffic collected from an ISP backbone and controlled laboratory settings.'
   },
   {
@@ -106,7 +107,7 @@ const PUBLICATIONS = [
     short: 'CNSM 2025',
     doi: '10.23919/CNSM67658.2025.11297513',
     url: 'https://ieeexplore.ieee.org/document/11297513',
-    citations: 0,
+    citations: 1,
     abstract: 'Time Series Analysis (TSA) is an essential tool in computer networking, supporting tasks such as traffic forecasting, capacity planning, load balancing, quality of service monitoring, behavior profiling, and anomaly detection. Despite its widespread use, the community was limited by the lack of sufficient datasets. Our recent dataset, CESNET-TimeSeries24, finally fills this gap. However, its substantial size presents significant challenges for practical use in research. Therefore, we introduce the CESNET TS-Zoo library, designed to streamline dataset management, experiment setting, and reproducibility in the TSA of network traffic.'
   },
   {
@@ -118,7 +119,7 @@ const PUBLICATIONS = [
     short: 'CNSM 2025',
     doi: '10.23919/CNSM67658.2025.11297445',
     url: 'https://ieeexplore.ieee.org/document/11297445',
-    citations: 0,
+    citations: 2,
     abstract: 'Accurate identification of device type and operating system in network traffic is crucial for effective network monitoring, security enforcement, and anomaly detection. Nevertheless, creating datasets for this task is limited due to problematic annotation in a real-world environment. We propose Device Annotation Framework (DAF), a modular and extensible open-source framework for annotating large-scale network datasets with operating system and device type labels.'
   },
   {
@@ -130,7 +131,7 @@ const PUBLICATIONS = [
     short: 'NOMS 2025',
     url: 'https://ieeexplore.ieee.org/abstract/document/11073574',
     code: 'https://github.com/koumajos/explainable_anomaly_detection_using_LLM',
-    citations: 7,
+    citations: 8,
     abstract: 'Network anomaly detection is essential for modern cybersecurity, yet existing systems often generate numerous alerts without clear explanations, leading to inefficiencies and high false-positive rates. This paper proposes a novel approach that integrates Large Language Models (LLMs) with an anomaly detection framework to enhance explainability in network traffic analysis. Instead of directly detecting anomalies, the LLM only interprets already flagged anomaly events, providing insights into their potential root causes.'
   },
   {
@@ -141,19 +142,20 @@ const PUBLICATIONS = [
     venue: 'IEEE Network Operations and Management Symposium (NOMS)',
     short: 'NOMS 2025',
     url: 'https://ieeexplore.ieee.org/abstract/document/11073727',
-    citations: 5,
+    citations: 6,
     featured: true,
     abstract: 'Traffic monitoring is important for supporting network security and management. Recent advancements have explored machine learning-based approaches to classify encrypted traffic, yet the challenge of obtaining current threat datasets persists, leaving supervised models reliant on outdated information. This paper proposes a novel Network Outlier Detection System (NODS), a platform based on open-source software designed to detect outliers in network traffic by leveraging forecasting models. Our system was deployed and tested on a large ISP infrastructure.'
   },
   {
-    type: 'preprint',
-    year: 2025,
-    title: 'When Simple Model Just Works: Is Network Traffic Classification in Crisis?',
+    type: 'conference',
+    year: 2026,
+    title: 'Is Network Traffic Classification a Solved Problem? Duplication, Ceilings, and the Illusion of Progress',
     authors: ['Kamil Jeřábek', 'Jan Luxemburk', 'Richard Plný', 'Josef Koumar', 'Jaroslav Pešek', 'Karel Hynek'],
-    venue: 'arXiv preprint arXiv:2506.08655',
-    short: 'arXiv',
+    venue: 'International Conference on Network and Service Management (CNSM)',
+    short: 'CNSM 2026',
     url: 'https://arxiv.org/abs/2506.08655',
-    citations: 6,
+    note: 'Accepted; preprint published as “When Simple Model Just Works: Is Network Traffic Classification in Crisis?”, arXiv:2506.08655',
+    citations: 9,
     abstract: 'Machine learning has been applied to network traffic classification (TC) for over two decades. While early efforts used shallow models, the latter 2010s saw a shift toward complex neural networks, often reporting near-perfect accuracy. However, it was recently revealed that a simple k-NN baseline using packet sequence metadata can be on par or even outperform more complex methods. We evaluate this baseline across 12 datasets and 15 TC tasks, and investigate why it performs so well. Our analysis shows that most datasets contain over 50% redundant samples, which frequently appear in both training and test sets due to common splitting practices.'
   },
   {
@@ -169,7 +171,7 @@ const PUBLICATIONS = [
     url: 'https://www.sciencedirect.com/science/article/pii/S1389128623005923',
     code: 'https://github.com/koumajos/Classification_by_NetTiSA_flow',
     data: 'https://zenodo.org/records/8301043',
-    citations: 34,
+    citations: 38,
     featured: true,
     abstract: 'Network traffic monitoring based on IP flows is a standard monitoring approach that can be deployed to various network infrastructures, even the large ISP networks connecting millions of people. This paper proposes a novel extended IP flow called NetTiSA (Network Time Series Analysed) flow, based on analysing the time series of packet sizes. By thoroughly testing 25 different network traffic classification tasks, we show the broad applicability and high usability of NetTiSA flow. The novel features proved to be computationally inexpensive and showed excellent discriminatory performance, bringing machine learning traffic classification even to 100 Gbps backbone lines.'
   },
@@ -181,7 +183,7 @@ const PUBLICATIONS = [
     venue: '20th International Conference on Network and Service Management (CNSM)',
     short: 'CNSM 2024',
     url: 'https://ieeexplore.ieee.org/abstract/document/10814630',
-    citations: 3,
+    citations: 4,
     abstract: 'Machine learning (ML) represents an efficient and popular approach for network traffic classification. However, network traffic inspection is a challenging domain and trained models may degrade soon after deployment. This paper proposes a novel method called Model-based Feature Weight Drift Detection (MFWDD) for concept drift detection. The MFWDD framework guided TLS and QUIC service classification model retraining throughout an extensive period and not only prevented model degradation but also improved its performance and consistency over time.'
   },
   {
@@ -206,7 +208,7 @@ const PUBLICATIONS = [
     url: 'https://ieeexplore.ieee.org/abstract/document/10327876',
     code: 'https://github.com/koumajos/ClassificationBasedOnSFTS',
     data: 'https://zenodo.org/records/8035724',
-    citations: 40,
+    citations: 42,
     featured: true,
     abstract: 'Network traffic monitoring using IP flows is used to handle the current challenge of analyzing encrypted network communication. This paper proposes a novel flow extension for traffic features based on the time series analysis of the Single Flow Time series. We propose 69 universal features based on statistical analysis of data points, time domain analysis, packet distribution within the flow timespan, time series behavior, and frequency domain analysis, and demonstrate their universality on 15 publicly available datasets.'
   },
@@ -221,7 +223,7 @@ const PUBLICATIONS = [
     url: 'https://ieeexplore.ieee.org/abstract/document/10327904',
     code: 'https://github.com/koumajos/EnhancedDeCrypto',
     data: 'https://zenodo.org/records/8033351',
-    citations: 1,
+    citations: 2,
     abstract: 'While the popularity of cryptocurrencies is rising, the number of threat actors who use illegal coin miner malware is increasing as well. In this paper, we analyzed the long-term periodic behavior of cryptocurrency miners communicating in computer networks and propose a novel method for cryptominer detection using specially designed periodicity features, enhancing the flow-based detection system DeCrypto.'
   },
   {
@@ -234,7 +236,7 @@ const PUBLICATIONS = [
     url: 'https://ieeexplore.ieee.org/abstract/document/10198988',
     code: 'https://github.com/koumajos/USTS',
     data: 'https://zenodo.org/records/7923745',
-    citations: 7,
+    citations: 8,
     abstract: 'Reliable detection of security events is essential for network security. Contrary to currently used approaches, this paper presents Unevenly Spaced Time Series (USTS) as a feasible representation of network traffic with several benefits for analysis. A dataset containing over 35 million time series captured on a real ISP network was created to evaluate the properties of USTS.'
   },
   {
@@ -257,7 +259,7 @@ const PUBLICATIONS = [
     short: 'CNSM 2022',
     details: 'pp. 359–363',
     url: 'https://ieeexplore.ieee.org/abstract/document/9964556',
-    citations: 19,
+    citations: 21,
     abstract: 'Even though encryption hides the content of communication from network monitoring and security systems, this paper shows a feasible way to retrieve useful information about the observed traffic. The paper deals with detection of periodic behavioral patterns of communication using time series created from network traffic by the autocorrelation function and the Lomb-Scargle periodogram. We experimented with a dataset of 61 classes and trained an XGBoost classifier reaching a 90% F1-score.'
   }
 ];
@@ -270,10 +272,29 @@ const DATASETS = [
     url: 'https://zenodo.org/records/17542827'
   },
   {
-    title: 'CESNET-CC25: Botnet Command-and-Control Dataset',
+    title: 'CESNET-CC25 — PCAP',
     year: 2025,
-    text: 'Real-world botnet C&C traffic from an ISP backbone combined with controlled laboratory captures, published as a benchmark for periodicity-based botnet detection.',
+    text: 'Long-term packet capture of botnet command-and-control communication, combining ISP backbone observations with controlled laboratory captures.',
     url: 'https://zenodo.org/records/16752462'
+  },
+  {
+    title: 'CESNET-CC25 — IP flows',
+    year: 2025,
+    text: 'The CESNET-CC25 botnet C&C capture exported as IP flow records, for flow-based detection of command-and-control channels.',
+    url: 'https://zenodo.org/records/16753890'
+  },
+  {
+    title: 'CESNET-CC25 — periodic behaviour features',
+    year: 2025,
+    text: 'Periodic behaviour features computed from multi-flow time series of the CESNET-CC25 capture — the benchmark behind the CNSM 2025 botnet detection paper.',
+    url: 'https://zenodo.org/records/16753981'
+  },
+  {
+    title: 'Explainable anomaly detection — annotated anomalies',
+    year: 2025,
+    source: 'GitHub',
+    text: 'Expert-annotated network anomalies from the CESNET3 network, the LLM prompts built from them and the model responses, behind the NOMS 2025 explainability paper.',
+    url: 'https://github.com/koumajos/explainable_anomaly_detection_using_LLM'
   },
   {
     title: 'CESNET-TimeSeries24',
