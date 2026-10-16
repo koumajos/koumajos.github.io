@@ -27,10 +27,36 @@ const PUBLICATIONS = [
   {
     type: 'conference',
     year: 2026,
+    title: 'Is Network Traffic Classification a Solved Problem? Duplication, Ceilings, and the Illusion of Progress',
+    authors: ['Kamil Jeřábek', 'Jan Luxemburk', 'Richard Plný', 'Josef Koumar', 'Jaroslav Pešek', 'Karel Hynek'],
+    venue: 'International Conference on Network and Service Management (CNSM)',
+    short: 'CNSM 2026',
+    featured: true,
+    url: 'https://arxiv.org/abs/2506.08655',
+    note: 'Accepted; preprint published as “When Simple Model Just Works: Is Network Traffic Classification in Crisis?”, arXiv:2506.08655',
+    pdf: 'files/papers/2025_when_simple_model_just_works.pdf',
+    citations: 9,
+    abstract: 'Machine learning has been applied to network traffic classification (TC) for over two decades. While early efforts used shallow models, the latter 2010s saw a shift toward complex neural networks, often reporting near-perfect accuracy. However, it was recently revealed that a simple k-NN baseline using packet sequence metadata can be on par or even outperform more complex methods. We evaluate this baseline across 12 datasets and 15 TC tasks, and investigate why it performs so well. Our analysis shows that most datasets contain over 50% redundant samples, which frequently appear in both training and test sets due to common splitting practices.'
+  },
+  {
+    type: 'preprint',
+    year: 2026,
+    title: 'CESNET-TimeSeries26: A Multi-Year Network Traffic Time Series Dataset for Annual Seasonality, Concept Drift, and Long-Term Anomaly Detection',
+    authors: ['Josef Koumar', 'Karel Hynek', 'Kamil Jeřábek', 'Pavel Šiška'],
+    venue: 'arXiv preprint arXiv:2610.14799',
+    short: 'arXiv',
+    url: 'https://arxiv.org/abs/2610.14799',
+    data: 'https://zenodo.org/records/21945629',
+    citations: 0
+  },
+  {
+    type: 'conference',
+    year: 2026,
     title: 'Threat Detection in Network Traffic using Time Series Analysis',
     authors: ['Josef Koumar', 'Tomáš Čejka'],
     venue: 'IEEE Network Operations and Management Symposium (NOMS)',
     short: 'NOMS 2026',
+    slides: 'files/slides/2026_NOMS_Threat_Detection_in_Network_Traffic_using_Time_Series_Analysis.pdf',
     citations: 0
   },
   {
@@ -41,6 +67,7 @@ const PUBLICATIONS = [
     venue: 'IEEE Network Operations and Management Symposium (NOMS)',
     short: 'NOMS 2026',
     data: 'https://zenodo.org/records/17542827',
+    slides: 'files/slides/2026_NOMS_Device_Type_Classification_on_ISP_Network_using_Time_Series_Analysis.pdf',
     citations: 0
   },
   {
@@ -66,6 +93,7 @@ const PUBLICATIONS = [
     doi: '10.1109/TNSM.2025.3636557',
     url: 'https://ieeexplore.ieee.org/document/11268324',
     code: 'https://github.com/koumajos/isp-forecasting-benchmark',
+    pdf: 'files/papers/2025_NTF_comparative_study.pdf',
     citations: 8,
     abstract: 'Accurate network traffic forecasting is crucial for Internet service providers to optimize resources, improve user experience, and detect anomalies. Until recently, the lack of large-scale, real-world datasets limited the fair evaluation of forecasting methods. The newly released CESNET-TimeSeries24 dataset addresses this gap by providing multivariate traffic data from thousands of devices over 40 weeks at multiple aggregation granularities and hierarchy levels. In this study, we leverage the CESNET-TimeSeries24 dataset to conduct a systematic evaluation of state-of-the-art deep learning models and provide practical insights. Moreover, our analysis reveals trade-offs between prediction accuracy and computational efficiency across different levels of granularity. Beyond model comparison, we establish a transparent and reproducible benchmarking framework, releasing source code and experiments to encourage standardized evaluation and accelerate progress in network traffic forecasting research.'
   },
@@ -81,6 +109,7 @@ const PUBLICATIONS = [
     doi: '10.1038/s41597-025-04603-x',
     url: 'https://www.nature.com/articles/s41597-025-04603-x',
     data: 'https://zenodo.org/records/13382427',
+    pdf: 'files/papers/2024_cesnet-timeseries24_arxiv.pdf',
     citations: 60,
     featured: true,
     abstract: 'Anomaly detection in network traffic is crucial for maintaining the security of computer networks and identifying malicious activities. Most approaches to anomaly detection use methods based on forecasting. Extensive real-world network datasets for forecasting and anomaly detection techniques are missing, potentially causing overestimation of anomaly detection algorithm performance and fabricating the illusion of progress. This manuscript tackles this issue by introducing a comprehensive dataset derived from 40 weeks of traffic transmitted by 275,000 active IP addresses in the CESNET3 network — an ISP network serving approximately half a million customers daily. It captures the behavior of diverse network entities, reflecting the variability typical of an ISP environment. This variability provides a realistic and challenging environment for developing forecasting and anomaly detection models, enabling evaluations that are closer to real-world deployment scenarios.'
@@ -107,6 +136,7 @@ const PUBLICATIONS = [
     short: 'CNSM 2025',
     doi: '10.23919/CNSM67658.2025.11297513',
     url: 'https://ieeexplore.ieee.org/document/11297513',
+    poster: 'files/posters/2025_CNSM_CESNET_TS_Zoo__A_Library_for_Reproducible_Analysis_of_Network_Traffic_Time_Series.pdf',
     citations: 1,
     abstract: 'Time Series Analysis (TSA) is an essential tool in computer networking, supporting tasks such as traffic forecasting, capacity planning, load balancing, quality of service monitoring, behavior profiling, and anomaly detection. Despite its widespread use, the community was limited by the lack of sufficient datasets. Our recent dataset, CESNET-TimeSeries24, finally fills this gap. However, its substantial size presents significant challenges for practical use in research. Therefore, we introduce the CESNET TS-Zoo library, designed to streamline dataset management, experiment setting, and reproducibility in the TSA of network traffic.'
   },
@@ -131,6 +161,7 @@ const PUBLICATIONS = [
     short: 'NOMS 2025',
     url: 'https://ieeexplore.ieee.org/abstract/document/11073574',
     code: 'https://github.com/koumajos/explainable_anomaly_detection_using_LLM',
+    slides: 'files/slides/2025_PESW_Explainable_Anomaly_Detection_in_Network_Traffic_Using_LLM.pdf',
     citations: 8,
     abstract: 'Network anomaly detection is essential for modern cybersecurity, yet existing systems often generate numerous alerts without clear explanations, leading to inefficiencies and high false-positive rates. This paper proposes a novel approach that integrates Large Language Models (LLMs) with an anomaly detection framework to enhance explainability in network traffic analysis. Instead of directly detecting anomalies, the LLM only interprets already flagged anomaly events, providing insights into their potential root causes.'
   },
@@ -142,21 +173,10 @@ const PUBLICATIONS = [
     venue: 'IEEE Network Operations and Management Symposium (NOMS)',
     short: 'NOMS 2025',
     url: 'https://ieeexplore.ieee.org/abstract/document/11073727',
+    slides: 'files/slides/2025_NOMS_Towards_Building_Network_Outlier_Detection_System_for_Network_Traffic_Monitoring.pdf',
     citations: 6,
     featured: true,
     abstract: 'Traffic monitoring is important for supporting network security and management. Recent advancements have explored machine learning-based approaches to classify encrypted traffic, yet the challenge of obtaining current threat datasets persists, leaving supervised models reliant on outdated information. This paper proposes a novel Network Outlier Detection System (NODS), a platform based on open-source software designed to detect outliers in network traffic by leveraging forecasting models. Our system was deployed and tested on a large ISP infrastructure.'
-  },
-  {
-    type: 'conference',
-    year: 2026,
-    title: 'Is Network Traffic Classification a Solved Problem? Duplication, Ceilings, and the Illusion of Progress',
-    authors: ['Kamil Jeřábek', 'Jan Luxemburk', 'Richard Plný', 'Josef Koumar', 'Jaroslav Pešek', 'Karel Hynek'],
-    venue: 'International Conference on Network and Service Management (CNSM)',
-    short: 'CNSM 2026',
-    url: 'https://arxiv.org/abs/2506.08655',
-    note: 'Accepted; preprint published as “When Simple Model Just Works: Is Network Traffic Classification in Crisis?”, arXiv:2506.08655',
-    citations: 9,
-    abstract: 'Machine learning has been applied to network traffic classification (TC) for over two decades. While early efforts used shallow models, the latter 2010s saw a shift toward complex neural networks, often reporting near-perfect accuracy. However, it was recently revealed that a simple k-NN baseline using packet sequence metadata can be on par or even outperform more complex methods. We evaluate this baseline across 12 datasets and 15 TC tasks, and investigate why it performs so well. Our analysis shows that most datasets contain over 50% redundant samples, which frequently appear in both training and test sets due to common splitting practices.'
   },
   {
     type: 'journal',
@@ -171,6 +191,7 @@ const PUBLICATIONS = [
     url: 'https://www.sciencedirect.com/science/article/pii/S1389128623005923',
     code: 'https://github.com/koumajos/Classification_by_NetTiSA_flow',
     data: 'https://zenodo.org/records/8301043',
+    pdf: 'files/papers/2024_nettisa_flow.pdf',
     citations: 38,
     featured: true,
     abstract: 'Network traffic monitoring based on IP flows is a standard monitoring approach that can be deployed to various network infrastructures, even the large ISP networks connecting millions of people. This paper proposes a novel extended IP flow called NetTiSA (Network Time Series Analysed) flow, based on analysing the time series of packet sizes. By thoroughly testing 25 different network traffic classification tasks, we show the broad applicability and high usability of NetTiSA flow. The novel features proved to be computationally inexpensive and showed excellent discriminatory performance, bringing machine learning traffic classification even to 100 Gbps backbone lines.'
@@ -194,6 +215,7 @@ const PUBLICATIONS = [
     venue: 'IEEE Network Operations and Management Symposium (NOMS)',
     short: 'NOMS 2024',
     url: 'https://ieeexplore.ieee.org/abstract/document/10575630',
+    slides: 'files/slides/2024_NOMS_Analysis_of_Statistical_Distribution_Changes_of_Input_Features_in_Network_Traffic_Classification_Domain.pdf',
     citations: 6,
     abstract: 'This study investigates the evolving landscape of network traffic monitoring, which is crucial for maintaining computer network services and security. The study focuses on the CESNET-TLS-Year22 dataset, derived from one year of TLS network traffic on the CESNET2 backbone. The main result of our analysis is the identification of the Weekend phenomenon in network traffic classification that is generally overlooked during ML model training.'
   },
@@ -208,6 +230,8 @@ const PUBLICATIONS = [
     url: 'https://ieeexplore.ieee.org/abstract/document/10327876',
     code: 'https://github.com/koumajos/ClassificationBasedOnSFTS',
     data: 'https://zenodo.org/records/8035724',
+    pdf: 'files/papers/2023_single_flow_time_series.pdf',
+    slides: 'files/slides/2023_CNSM_Network_Traffic_Classification_based_on_Single_Flow_Time_Series_Analysis.pdf',
     citations: 42,
     featured: true,
     abstract: 'Network traffic monitoring using IP flows is used to handle the current challenge of analyzing encrypted network communication. This paper proposes a novel flow extension for traffic features based on the time series analysis of the Single Flow Time series. We propose 69 universal features based on statistical analysis of data points, time domain analysis, packet distribution within the flow timespan, time series behavior, and frequency domain analysis, and demonstrate their universality on 15 publicly available datasets.'
@@ -236,6 +260,7 @@ const PUBLICATIONS = [
     url: 'https://ieeexplore.ieee.org/abstract/document/10198988',
     code: 'https://github.com/koumajos/USTS',
     data: 'https://zenodo.org/records/7923745',
+    poster: 'files/posters/2023_TMA_Unevenly_Spaced_Time_Series_from_Network_Traffic.pdf',
     citations: 8,
     abstract: 'Reliable detection of security events is essential for network security. Contrary to currently used approaches, this paper presents Unevenly Spaced Time Series (USTS) as a feasible representation of network traffic with several benefits for analysis. A dataset containing over 35 million time series captured on a real ISP network was created to evaluate the properties of USTS.'
   },
@@ -259,12 +284,20 @@ const PUBLICATIONS = [
     short: 'CNSM 2022',
     details: 'pp. 359–363',
     url: 'https://ieeexplore.ieee.org/abstract/document/9964556',
+    slides: 'files/slides/2022_CNSM_Network_traffic_classification_based_on_periodic_behavior_detection.pdf',
     citations: 21,
     abstract: 'Even though encryption hides the content of communication from network monitoring and security systems, this paper shows a feasible way to retrieve useful information about the observed traffic. The paper deals with detection of periodic behavioral patterns of communication using time series created from network traffic by the autocorrelation function and the Lomb-Scargle periodogram. We experimented with a dataset of 61 classes and trained an XGBoost classifier reaching a 90% F1-score.'
   }
 ];
 
 const DATASETS = [
+  {
+    title: 'CESNET-TimeSeries26',
+    year: 2026,
+    text: 'Multi-year successor to CESNET-TimeSeries24: 996 days of traffic time series from the CESNET3 network for 278,466 IP addresses, 285 institutions and 566 subnets at 10-minute, hourly and daily aggregation, plus a 4.5-year longitudinal subnet.',
+    url: 'https://zenodo.org/records/21945629',
+    highlight: true
+  },
   {
     title: 'CESNET-DeviceType24',
     year: 2025,
@@ -326,6 +359,145 @@ const DATASETS = [
     year: 2022,
     text: 'Periodic behavior features of cryptomining communication, used for cryptominer detection research.',
     url: 'https://zenodo.org/records/8033351'
+  }
+];
+
+/* Talks, posters and reports; files/ mirrors the former koumajos/myresearch repository */
+const MATERIALS = [
+  {
+    kind: 'talk',
+    year: 2026,
+    title: 'Threat Detection in Network Traffic using Time Series Analysis',
+    event: 'IEEE/IFIP Network Operations and Management Symposium (NOMS 2026)',
+    links: [{ label: 'Slides', href: 'files/slides/2026_NOMS_Threat_Detection_in_Network_Traffic_using_Time_Series_Analysis.pdf' }]
+  },
+  {
+    kind: 'talk',
+    year: 2026,
+    title: 'Device Type Classification on ISP Network using Time Series Analysis',
+    event: 'IEEE/IFIP Network Operations and Management Symposium (NOMS 2026)',
+    links: [{ label: 'Slides', href: 'files/slides/2026_NOMS_Device_Type_Classification_on_ISP_Network_using_Time_Series_Analysis.pdf' }]
+  },
+  {
+    kind: 'talk',
+    year: 2026,
+    title: 'Don\'t Ask AI to Find the Needle: Ask How Sharp It Is',
+    event: 'GÉANT Future Talent Programme (FTP26)',
+    links: [
+      { label: 'Video', href: 'https://www.youtube.com/watch?v=QMArkDMT698' },
+      { label: 'Slides', href: 'files/slides/2026_GEANT_FTP_Dont_Ask_AI_to_Find_the_Needle.pdf' }
+    ]
+  },
+  {
+    kind: 'thesis',
+    year: 2026,
+    title: 'Threat Detection in Network Traffic using Time Series Analysis',
+    event: 'Doctoral dissertation, Faculty of Information Technology, CTU in Prague',
+    links: [
+      { label: 'Dissertation', href: 'dissertation/Koumar-dissertation-2026.pdf' },
+      { label: 'Defence slides', href: 'dissertation/Koumar-defence-slides-2026.pdf' },
+      { label: 'Details', href: 'dissertation.html' }
+    ]
+  },
+  {
+    kind: 'talk',
+    year: 2025,
+    title: 'Towards Building Network Outlier Detection System for Network Traffic Monitoring',
+    event: 'IEEE/IFIP Network Operations and Management Symposium (NOMS 2025)',
+    links: [{ label: 'Slides', href: 'files/slides/2025_NOMS_Towards_Building_Network_Outlier_Detection_System_for_Network_Traffic_Monitoring.pdf' }]
+  },
+  {
+    kind: 'talk',
+    year: 2025,
+    title: 'Explainable Anomaly Detection in Network Traffic Using LLM',
+    event: '13th Prague Embedded Systems Workshop (PESW 2025)',
+    links: [{ label: 'Slides', href: 'files/slides/2025_PESW_Explainable_Anomaly_Detection_in_Network_Traffic_Using_LLM.pdf' }]
+  },
+  {
+    kind: 'poster',
+    year: 2025,
+    title: 'CESNET TS-Zoo: A Library for Reproducible Analysis of Network Traffic Time Series',
+    event: 'International Conference on Network and Service Management (CNSM 2025)',
+    links: [{ label: 'Poster', href: 'files/posters/2025_CNSM_CESNET_TS_Zoo__A_Library_for_Reproducible_Analysis_of_Network_Traffic_Time_Series.pdf' }]
+  },
+  {
+    kind: 'talk',
+    year: 2025,
+    title: 'Research introduction',
+    event: 'NECS PhD School',
+    links: [{ label: 'Slides', href: 'files/slides/2025_NECS_PhD_school.pdf' }]
+  },
+  {
+    kind: 'talk',
+    year: 2024,
+    title: 'Anomaly Detection in ISP Networks',
+    event: 'PhD Workshop, International Conference on Network and Service Management (CNSM 2024)',
+    links: [
+      { label: 'Slides', href: 'files/slides/2024_CNSM_PhD_Workshop_Anomaly_Detection_in_ISP_Networks.pdf' },
+      { label: 'Poster', href: 'files/posters/2024_CNSM_Anomaly_Detection_in_ISP_Networks.pdf' }
+    ]
+  },
+  {
+    kind: 'talk',
+    year: 2024,
+    title: 'Analysis of Statistical Distribution Changes of Input Features in Network Traffic Classification Domain',
+    event: 'QoDaNeT workshop at IEEE NOMS 2024 · Prague Embedded Systems Workshop (PESW 2024)',
+    links: [
+      { label: 'Slides (NOMS)', href: 'files/slides/2024_NOMS_Analysis_of_Statistical_Distribution_Changes_of_Input_Features_in_Network_Traffic_Classification_Domain.pdf' },
+      { label: 'Slides (PESW)', href: 'files/slides/2024_PESW_Analysis_of_Statistical_Distribution_Changes_of_Input_Features_in_Network_Traffic_Classification_Domain.pdf' }
+    ]
+  },
+  {
+    kind: 'thesis',
+    year: 2024,
+    title: 'Time Series Analysis of Network Traffic and Detection of Security Threats',
+    event: 'Doctoral study report, Faculty of Information Technology, CTU in Prague',
+    links: [
+      { label: 'Report', href: 'files/theses/2024_doctoral_study_report.pdf' },
+      { label: 'Slides', href: 'files/slides/2024_Doctoral_study_report.pdf' }
+    ]
+  },
+  {
+    kind: 'talk',
+    year: 2023,
+    title: 'Network Traffic Classification Based on Single Flow Time Series Analysis',
+    event: 'International Conference on Network and Service Management (CNSM 2023)',
+    links: [{ label: 'Slides', href: 'files/slides/2023_CNSM_Network_Traffic_Classification_based_on_Single_Flow_Time_Series_Analysis.pdf' }]
+  },
+  {
+    kind: 'poster',
+    year: 2023,
+    title: 'Unevenly Spaced Time Series from Network Traffic',
+    event: 'Network Traffic Measurement and Analysis Conference (TMA 2023)',
+    links: [{ label: 'Poster', href: 'files/posters/2023_TMA_Unevenly_Spaced_Time_Series_from_Network_Traffic.pdf' }]
+  },
+  {
+    kind: 'talk',
+    year: 2022,
+    title: 'Network Traffic Classification Based on Periodic Behavior Detection',
+    event: 'International Conference on Network and Service Management (CNSM 2022)',
+    links: [{ label: 'Slides', href: 'files/slides/2022_CNSM_Network_traffic_classification_based_on_periodic_behavior_detection.pdf' }]
+  },
+  {
+    kind: 'poster',
+    year: 2022,
+    title: 'Detection and Recognition of Periodic Communication in Network Traffic',
+    event: 'Prague Embedded Systems Workshop (PESW 2022)',
+    links: [{ label: 'Poster', href: 'files/posters/2022_PESW_DETECTION_AND_RECOGNITION_OF_PERIODIC_COMMUNICATION_IN_NETWORK_TRAFFIC.pdf' }]
+  },
+  {
+    kind: 'thesis',
+    year: 2022,
+    title: 'Detekce a rozpoznávání periodické komunikace v síťovém provozu',
+    event: 'Master\'s thesis (in Czech), Faculty of Information Technology, CTU in Prague',
+    links: [{ label: 'Thesis', href: 'files/theses/2022_master_thesis_in_czech.pdf' }]
+  },
+  {
+    kind: 'thesis',
+    year: 2020,
+    title: 'Automatic recognition of network devices and their dependencies',
+    event: 'Bachelor\'s thesis (in Czech), Faculty of Information Technology, CTU in Prague',
+    links: [{ label: 'Thesis', href: 'files/theses/2020_bachelor_thesis_in_czech.pdf' }]
   }
 ];
 

@@ -10,6 +10,7 @@
     doi: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>',
     code: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>',
     data: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>',
+    file: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>',
     chevron: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>'
   };
 
@@ -43,6 +44,15 @@
     }
     if (pub.doi) {
       parts.push('<a href="https://doi.org/' + esc(pub.doi) + '" target="_blank" rel="noopener">' + ICON.doi + 'DOI</a>');
+    }
+    if (pub.pdf) {
+      parts.push('<a href="' + esc(pub.pdf) + '" target="_blank" rel="noopener">' + ICON.file + 'PDF</a>');
+    }
+    if (pub.slides) {
+      parts.push('<a href="' + esc(pub.slides) + '" target="_blank" rel="noopener">' + ICON.file + 'Slides</a>');
+    }
+    if (pub.poster) {
+      parts.push('<a href="' + esc(pub.poster) + '" target="_blank" rel="noopener">' + ICON.file + 'Poster</a>');
     }
     if (pub.code) {
       parts.push('<a href="' + esc(pub.code) + '" target="_blank" rel="noopener">' + ICON.code + 'Code</a>');
@@ -182,6 +192,25 @@
         '</a></li>'
       );
     }).join('');
+  }
+
+  if (typeof MATERIALS !== 'undefined') {
+    document.querySelectorAll('[data-materials]').forEach(function (el) {
+      const kind = el.getAttribute('data-materials');
+      el.innerHTML = MATERIALS.filter(function (m) { return m.kind === kind; }).map(function (m) {
+        const links = m.links.map(function (l) {
+          const external = /\.pdf$|^https?:/.test(l.href) ? ' target="_blank" rel="noopener"' : '';
+          return '<a href="' + esc(l.href) + '"' + external + '>' + ICON.file + esc(l.label) + '</a>';
+        }).join('');
+        return (
+          '<li class="pub">' +
+            '<h3 class="pub-title">' + esc(m.title) + '</h3>' +
+            '<p class="pub-venue">' + esc(m.event) + ', ' + m.year + '</p>' +
+            '<div class="pub-links">' + links + '</div>' +
+          '</li>'
+        );
+      }).join('');
+    });
   }
 
   const softwareEl = document.getElementById('software-list');
